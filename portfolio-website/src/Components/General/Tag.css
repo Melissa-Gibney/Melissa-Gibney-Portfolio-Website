@@ -1,0 +1,11 @@
+.Tag {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 90px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

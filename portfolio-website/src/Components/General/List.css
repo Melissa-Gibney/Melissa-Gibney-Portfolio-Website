@@ -1,0 +1,51 @@
+.List {
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: fit-content;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ListContent {
+  width: 100%;
+  display: grid;
+  text-align: left;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  grid-gap: 20px 20px;
+  transition: all 0.5s;
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (min-width: 835px) {
+  :root {
+    --grid-columns: 2;
+  }
+}
+
+@media screen and (min-width: 1190px) {
+  :root {
+    --grid-columns: 3;
+  }
+}
+
+.ListTitle {
+  width: 100%;
+}
+
+.Items {
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+    grid-gap: 20px;
+    /* justify-content: left;
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* min-width: fit-content;
+    max-width: fit-content;
+    padding: 0px;  */
+}

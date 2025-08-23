@@ -1,0 +1,114 @@
+.CardContainer {
+  min-width: 350px;
+  max-width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  padding: 0;
+  /* margin: 10px; */
+  background-color: transparent;
+  border: 0px;
+
+  cursor: pointer;
+}
+
+.CardHighlight {
+  content: "";
+  position: absolute;
+  transform: translate3D(-50%, -50%, 1px);
+  background: radial-gradient(red, transparent, transparent);
+  /* top: var(--y);
+  left: var(--x); */
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.Card:hover .CardHighlight{
+  opacity: 0.9;
+}
+
+.Card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(5000px) rotateX(var(--rotateX)) rotateY(var(--rotateY));
+  transition: transform 0.1s;
+}
+
+.CardShadow{
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 0);
+  border-radius: 10px;
+  position: absolute;
+  transform: translateZ(-40px);
+  filter: blur(1px);
+  transition: all 0.1s;
+  /* opacity: 0.2; */
+}
+
+.Card:hover .CardShadow {
+  /* width: 80%;
+  height: 80%; */
+  background-color: hsla(0, 0%, 0%, 0.1);
+}
+
+/* .Card:hover {
+  width: 360px;
+  max-width: 360px;
+  height: 360px;
+  margin: 5px;
+  box-shadow: 0px 0px 10px 0px rgb(196, 217, 227);
+} */
+
+/* .Card:hover .CardContent {
+  padding: 15px;
+} */
+
+/* .CardContent:active {
+  box-shadow: 0px 0px 0px 0px rgb(196, 217, 227);
+} */
+
+.CardContent{
+  /* background-color: rgb(63, 68, 74); */
+  /* background: radial-gradient(circle at 50% 200%, rgb(43, 44, 78), rgb(63, 68, 74)) padding-box, linear-gradient(rgb(129, 144, 150), rgb(103, 115, 120)) border-box; */
+  /* background: radial-gradient(circle at 50% 200%, transparent, transparent) padding-box, linear-gradient(rgb(129, 144, 150), rgb(103, 115, 120)) border-box; */
+  background-color: rgba(255, 255, 255, 0.031);
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 0px;
+  border-radius: 10px;
+  /* border: 1px, transparent solid; */
+  /* border-color: linear-gradient(rgb(129, 144, 150), rgb(103, 115, 120)); */
+  border-top: 1px solid rgba(129, 144, 150, 0.368);
+  border-left: 1px solid rgba(103, 115, 120, 0.171);
+  border-right: 1px solid rgba(103, 115, 120, 0.171);
+  border-bottom: 1px solid rgba(103, 115, 120, 0.171);
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: absolute;
+  overflow: clip;
+  backdrop-filter: blur(3px);
+}
+
+.TextContainer {
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.TagContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.SVG {
+  width: 100%;
+  height: 100%;
+}

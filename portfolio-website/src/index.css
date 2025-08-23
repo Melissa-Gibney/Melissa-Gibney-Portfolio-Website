@@ -1,0 +1,83 @@
+body, input, textarea, button {
+  margin: 0;
+  font-family: 'Azeri Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0px;
+  color: white;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: fit-content;
+  height: fit-content;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Section {
+  display: flex;
+  padding: 10px;
+  background-color: rgba(38, 40, 47, 0.8);
+  border-radius: 10px;
+  border-top: 3px solid rgba(129, 144, 150, 0.368);
+  border-left: 3px solid rgba(103, 115, 120, 0.171);
+  border-right: 3px solid rgba(103, 115, 120, 0.171);
+  border-bottom: 3px solid rgba(103, 115, 120, 0.171);
+  /* box-shadow: 0px 0px 1px 5px rgba(204, 216, 253, 0.1); */
+  transition: all 0.5s;
+  backdrop-filter: blur(3px);
+}
+
+/* .Section:hover {
+  box-shadow: 0px 0px 1px 5px rgba(204, 216, 253, 0.2);
+} */
+
+/* em {
+  font-style: normal;
+} */
+
+.BubbleContainer {
+    content: "";
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    justify-content: space-evenly;
+    min-width: fit-content;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    overflow: visible;
+    z-index: 0;
+}
+
+.BubbleContainer div {
+    content: "";
+    position: relative;
+    background: radial-gradient(rgba(136, 92, 218, 0.8) 20%, transparent 90%);
+    border: 3px solid rgba(103, 115, 120, 0.171);
+    /* background: rgb(136, 92, 218, 0.8); */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    /* box-shadow: 0 0 0px 5px rgba(92, 62, 147, 0.161); */
+    animation: bubbleAnimation 15s infinite;
+    animation-duration: calc(1000s / var(--i));
+}
+
+@keyframes bubbleAnimation {
+    0% {
+        transform: translateY(50px) scale(1);
+    }
+    100% {
+        transform: translateY(-250vh) scale(0.1);
+    }
+}

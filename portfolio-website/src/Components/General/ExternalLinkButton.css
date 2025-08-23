@@ -1,0 +1,36 @@
+.LinkButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    border: 0;
+    padding:0;
+    transition: all 0.1s ease-in-out;
+    background-color: transparent;
+}
+
+.LinkButtonContents {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.031);
+    border-top: 1px solid rgba(129, 144, 150, 0.368);
+    border-left: 1px solid rgba(103, 115, 120, 0.171);
+    border-right: 1px solid rgba(103, 115, 120, 0.171);
+    border-bottom: 1px solid rgba(103, 115, 120, 0.171);
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+.LinkButton:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 1;
+}

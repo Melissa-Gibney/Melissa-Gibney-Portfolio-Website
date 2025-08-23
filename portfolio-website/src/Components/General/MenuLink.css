@@ -1,0 +1,36 @@
+.MenuLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 0;
+    transition: all 0.1s ease-in-out;
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.MenuLinkContents {
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.031);
+    border-top: 1px solid rgba(129, 144, 150, 0.368);
+    border-left: 1px solid rgba(103, 115, 120, 0.171);
+    border-right: 1px solid rgba(103, 115, 120, 0.171);
+    border-bottom: 1px solid rgba(103, 115, 120, 0.171);
+    padding: 8px;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+    text-align: center;
+}
+
+.MenuLink:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    z-index: 1;
+}
