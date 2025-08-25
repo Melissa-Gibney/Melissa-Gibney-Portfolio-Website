@@ -24,15 +24,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageR
         navigate(link);
     }
 
-    // const setHover = (x: boolean) => {
-    //     setIsHovering(() => x);
-    //     // console.log("isHovering: " + x);
-    //     if(!isHovering)
-    //     {
-    //         if(!card.current){return}
-    //         card.current.setAttribute("style", "transform: rotateX(0deg) rotateY(0deg) transition: transform 1s");
-    //     }
-    // }
+    const setHover = (x: boolean) => {
+        setIsHovering(() => x);
+        // console.log("isHovering: " + x);
+        if(!isHovering)
+        {
+            if(!card.current){return}
+            card.current.setAttribute("style", "transform: rotateX(0deg) rotateY(0deg) transition: transform 1s");
+        }
+    }
 
     const handleMouseMoveCard = (event: { clientX: number; clientY: number; }) => {
         if(isHovering)
@@ -79,7 +79,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageR
     return (
         <button className='CardContainer' onClick={() => handleClick()}>
             {/* <div className='CardHighlight'/> */}
-            <div className="Card" ref={card} onMouseMove={handleMouseMoveCard} onMouseEnter={() => setIsHovering(true)} onMouseLeave={() => setIsHovering(false)}>
+            <div className="Card" ref={card} onMouseMove={handleMouseMoveCard} onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                 {/* <div className='CardShadow'/> */}
                 <div className='CardContent'>
                     {/* <div className='CardHighlight' ref={highlight}/> */}
