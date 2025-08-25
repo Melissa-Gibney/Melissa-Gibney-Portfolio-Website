@@ -1,6 +1,6 @@
 import './ExternalLinkButton.css';
 import { useState } from 'react';
-import { FontAwesomeIcon, type FontAwesomeIconProps } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { IconDefinition, SizeProp } from '@fortawesome/fontawesome-svg-core';
 
 interface ExternalLinkButtonProps {

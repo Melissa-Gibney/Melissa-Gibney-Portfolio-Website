@@ -15,7 +15,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ children, description, imageRef, imagePadding, link, title }) =>  {
   
     const card = useRef<HTMLDivElement | null>(null);
-    const highlight = useRef<HTMLDivElement | null>(null);
+    // const highlight = useRef<HTMLDivElement | null>(null);
 
     const [isHovering, setIsHovering] = useState(false)
 
@@ -58,22 +58,22 @@ const Card: React.FC<CardProps> = ({ children, description, imageRef, imagePaddi
         }
     }
 
-    const handleMouseMoveHighlight = (event: { clientX: number; clientY: number; }) => {
-        if(isHovering)
-        {
-            if(!card.current || !highlight.current){return}
-            const rect = card.current.getBoundingClientRect();
-            const mouseX = event.clientX - rect.left - rect.width/2;
-            const mouseY = event.clientY - rect.top - rect.height/2;
+    // const handleMouseMoveHighlight = (event: { clientX: number; clientY: number; }) => {
+    //     if(isHovering)
+    //     {
+    //         if(!card.current || !highlight.current){return}
+    //         const rect = card.current.getBoundingClientRect();
+    //         const mouseX = event.clientX - rect.left - rect.width/2;
+    //         const mouseY = event.clientY - rect.top - rect.height/2;
 
-            highlight.current.style.top = "" + mouseY;
-            highlight.current.style.left = "" + mouseX;
-        }
-    }
+    //         highlight.current.style.top = "" + mouseY;
+    //         highlight.current.style.left = "" + mouseX;
+    //     }
+    // }
 
-    const calcWidth = (w: number) => {
-        return w - imagePadding;
-    }
+    // const calcWidth = (w: number) => {
+    //     return w - imagePadding;
+    // }
 
     return (
         <button className='CardContainer' onClick={() => handleClick()}>

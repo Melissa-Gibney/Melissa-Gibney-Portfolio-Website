@@ -13,7 +13,7 @@ export interface ProjectCardProps {
 const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageRef, imagePadding, link, title }) => {
   
     const card = useRef<HTMLDivElement | null>(null);
-    const highlight = useRef<HTMLDivElement | null>(null);
+    // const highlight = useRef<HTMLDivElement | null>(null);
 
     var [isHovering, setIsHovering] = useState(false)
 
@@ -21,15 +21,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageR
         window.open(link, "_self");
     }
 
-    const setHover = (x: boolean) => {
-        setIsHovering(() => x);
-        // console.log("isHovering: " + x);
-        if(!isHovering)
-        {
-            if(!card.current){return}
-            card.current.setAttribute("style", "transform: rotateX(0deg) rotateY(0deg) transition: transform 1s");
-        }
-    }
+    // const setHover = (x: boolean) => {
+    //     setIsHovering(() => x);
+    //     // console.log("isHovering: " + x);
+    //     if(!isHovering)
+    //     {
+    //         if(!card.current){return}
+    //         card.current.setAttribute("style", "transform: rotateX(0deg) rotateY(0deg) transition: transform 1s");
+    //     }
+    // }
 
     const handleMouseMoveCard = (event: { clientX: number; clientY: number; }) => {
         if(isHovering)
@@ -56,18 +56,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageR
         }
     }
 
-    const handleMouseMoveHighlight = (event: { clientX: number; clientY: number; }) => {
-        if(isHovering)
-        {
-            if(!card.current || !highlight.current){return}
-            const rect = card.current.getBoundingClientRect();
-            const mouseX = event.clientX - rect.left - rect.width/2;
-            const mouseY = event.clientY - rect.top - rect.height/2;
+    // const handleMouseMoveHighlight = (event: { clientX: number; clientY: number; }) => {
+    //     if(isHovering)
+    //     {
+    //         if(!card.current || !highlight.current){return}
+    //         const rect = card.current.getBoundingClientRect();
+    //         const mouseX = event.clientX - rect.left - rect.width/2;
+    //         const mouseY = event.clientY - rect.top - rect.height/2;
 
-            highlight.current.style.top = "" + mouseY;
-            highlight.current.style.left = "" + mouseX;
-        }
-    }
+    //         highlight.current.style.top = "" + mouseY;
+    //         highlight.current.style.left = "" + mouseX;
+    //     }
+    // }
 
     // const calcWidth = (w: number) => {
     //     return w - imagePadding;
