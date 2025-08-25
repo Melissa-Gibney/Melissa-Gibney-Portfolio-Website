@@ -34,7 +34,6 @@ const MenuLink: React.FC<MenuLinkProps> = ({ link, shadowColor, title }) => {
 
     const handleClick = () => {
         navigate(link);
-        // window.open(link, "_self");
     }
 
     return (

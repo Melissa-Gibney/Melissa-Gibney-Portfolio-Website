@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import './ProjectCard.css';
 import { useState, useRef, type ReactElement } from 'react';
 
@@ -12,13 +13,15 @@ export interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageRef, imagePadding, link, title }) => {
   
+    const navigate = useNavigate();
+
     const card = useRef<HTMLDivElement | null>(null);
     // const highlight = useRef<HTMLDivElement | null>(null);
 
     var [isHovering, setIsHovering] = useState(false)
 
     const handleClick = () => {
-        window.open(link, "_self");
+        navigate(link);
     }
 
     // const setHover = (x: boolean) => {
