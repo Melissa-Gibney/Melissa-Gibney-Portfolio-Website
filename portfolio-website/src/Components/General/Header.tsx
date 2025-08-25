@@ -20,9 +20,9 @@ const Header: React.FC<HeaderProps> = ({ }) =>  {
         </div>
       </div>
       <div className="HeaderRight">
-        <MenuLink title="Home" link="http://localhost:5173/" shadowColor={'#003b5c'}/>
-        <MenuLink title="Projects" link="http://localhost:5173/projects" shadowColor={'#003b5c'}/>
-        <MenuLink title="About" link="http://localhost:5173/about" shadowColor={'#003b5c'}/>
+        <MenuLink title="Home" link="/" shadowColor={'#003b5c'}/>
+        <MenuLink title="Projects" link="/projects" shadowColor={'#003b5c'}/>
+        <MenuLink title="About" link="/about" shadowColor={'#003b5c'}/>
         {/*<h4 style={{margin:"8px"}}>Menu</h4>*/}
         {/*<NavMenu icon={faBars} size={"2x"} isWhite={true} backgroundColor={"#0072b1"} hoverColor={"#1b9ce3"} activeColor={"#005c8f"} shadowColor={"#003b5c"}/>*/}
       </div>

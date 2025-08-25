@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import './MenuLink.css';
 import { useState } from 'react';
 
@@ -8,6 +9,8 @@ interface MenuLinkProps {
 }
 
 const MenuLink: React.FC<MenuLinkProps> = ({ link, shadowColor, title }) => {
+
+    const navigate = useNavigate();
 
     const [isHovering, setIsHovering] = useState(false);
     const [isActive, setIsActive] = useState(false);
@@ -30,7 +33,8 @@ const MenuLink: React.FC<MenuLinkProps> = ({ link, shadowColor, title }) => {
     };
 
     const handleClick = () => {
-        window.open(link, "_self");
+        navigate(link);
+        // window.open(link, "_self");
     }
 
     return (
