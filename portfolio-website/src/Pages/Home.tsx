@@ -26,6 +26,19 @@ function Home() {
                     <AICharacterChatbotCard/>
                 </List>
             </div>
+            <div className="BubbleContainer">
+                <div style={{"--i":21} as React.CSSProperties}/>
+                <div style={{"--i":10} as React.CSSProperties}/>
+                <div style={{"--i":49} as React.CSSProperties}/>
+                <div style={{"--i":35} as React.CSSProperties}/>
+                <div style={{"--i":80} as React.CSSProperties}/>
+                <div style={{"--i":63} as React.CSSProperties}/>
+                <div style={{"--i":28} as React.CSSProperties}/>
+                <div style={{"--i":55} as React.CSSProperties}/>
+                <div style={{"--i":41} as React.CSSProperties}/>
+                <div style={{"--i":35} as React.CSSProperties}/>
+                <div style={{"--i":25} as React.CSSProperties}/>
+            </div>
             <Footer pageName={'Home'}/>
         </div>
     );

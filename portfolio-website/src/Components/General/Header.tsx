@@ -10,7 +10,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ pageName }) =>  {
 
-  var shadowColor = '#005c1dff';
+  var shadowColor = "rgba(92, 218, 126, 0.7)";
   if(pageName == "Project")
   {
     shadowColor = "rgba(136, 92, 218, 0.7)";
