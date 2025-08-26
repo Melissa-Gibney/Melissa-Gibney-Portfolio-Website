@@ -26,7 +26,7 @@ function Home() {
                     <AICharacterChatbotCard/>
                 </List>
             </div>
-            <Footer pageName={'About'}/>
+            <Footer pageName={'Home'}/>
         </div>
     );
 }
