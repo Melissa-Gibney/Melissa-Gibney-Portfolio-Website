@@ -25,7 +25,7 @@ function FluteSynthesizer() {
                 <ExternalLinkButton link="../../Melissa_Gibney_Flute_Synthesizer_Paper.pdf" icon={faFilePdf} size={"2x"} inverse={true} /*backgroundColor={"#0072b1"} hoverColor={"#1b9ce3"} activeColor={"#005c8f"} shadowColor={"#003b5c"}*//>
             </div>
         </div>
-        <Footer/>
+        <Footer pageName={'Project'}/>
     </div>
   );
 }

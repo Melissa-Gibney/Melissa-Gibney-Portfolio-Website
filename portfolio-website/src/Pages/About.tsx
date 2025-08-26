@@ -7,7 +7,7 @@ function About() {
     <div className="About">
         <Header pageName={'About'}/>
         <h1>About Page Here</h1>
-        <Footer/>
+        <Footer pageName={'About'}/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 interface HeaderProps {
-  pageName: "Home" | "Project" | "About"
+  pageName: "Home" | "Project" | "About";
 }
 
 const Header: React.FC<HeaderProps> = ({ pageName }) =>  {

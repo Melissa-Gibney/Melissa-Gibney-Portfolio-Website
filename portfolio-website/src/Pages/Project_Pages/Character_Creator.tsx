@@ -28,7 +28,7 @@ function CharacterCreator() {
                 <ExternalLinkButton link="https://www.hajim.rochester.edu/senior-design-day/beat-buddy-3000-a-robotic-drum-machine/" icon={faDrum} size={"2x"} inverse={true} /*backgroundColor={"#0072b1"} hoverColor={"#1b9ce3"} activeColor={"#005c8f"} shadowColor={"#003b5c"}*//>
             </div>
         </div>
-        <Footer/>
+        <Footer pageName={'Project'}/>
     </div>
   );
 }

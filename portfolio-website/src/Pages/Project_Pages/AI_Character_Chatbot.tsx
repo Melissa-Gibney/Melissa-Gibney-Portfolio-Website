@@ -148,7 +148,7 @@ const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () =>{
                 <div style={{"--i":35} as React.CSSProperties}/>
                 <div style={{"--i":25} as React.CSSProperties}/>
             </div>
-            <Footer/>
+            <Footer pageName={'Project'}/>
         </div>
     );
 }
