@@ -18,12 +18,12 @@ const Footer: React.FC<FooterProps> = ({ pageName }) => {
   }
 
   return (
-    <div className="Footer">
+    <div className="Footer" style={{boxShadow: "0px -10px 10px " + shadowColor}}>
         <div className='FooterContent'>
             <div className="FooterColumn">
                 <h2>Footer Left</h2>
             </div>
-            <div className="FooterColumn" style={{boxShadow: "0px -10px 10px " + shadowColor}}>
+            <div className="FooterColumn">
                 <h2>Footer Right</h2>
             </div>
         </div>
