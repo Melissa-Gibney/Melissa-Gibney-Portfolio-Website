@@ -5,6 +5,7 @@ import List from '../Components/General/List';
 import AICharacterChatbotCard from '../Components/Project_Cards/AICharacterChatbotCard'
 import RoboticDrumMachineCard from '../Components/Project_Cards/RoboticDrumMachineCard';
 import PicoCTFCapstoneProjectCard from '../Components/Project_Cards/PicoCTFCapstoneProjectCard';
+import Footer from '../Components/General/Footer';
 
 function Home() {
 
@@ -25,6 +26,7 @@ function Home() {
                     <AICharacterChatbotCard/>
                 </List>
             </div>
+            <Footer/>
         </div>
     );
 }
