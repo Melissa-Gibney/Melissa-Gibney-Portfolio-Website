@@ -5,10 +5,21 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 interface HeaderProps {
-
+  pageName: "Home" | "Project" | "About"
 }
 
-const Header: React.FC<HeaderProps> = ({ }) =>  {
+const Header: React.FC<HeaderProps> = ({ pageName }) =>  {
+
+  var shadowColor = '#003b5c';
+  if(pageName == "Project")
+  {
+    shadowColor = '#2e005c';
+  }
+  else if(pageName == "About")
+  {
+    shadowColor = '#005c1dff';
+  }
+
   return (
     <div className="Header">
       <div className="HeaderLeft">
@@ -20,9 +31,9 @@ const Header: React.FC<HeaderProps> = ({ }) =>  {
         </div>
       </div>
       <div className="HeaderRight">
-        <MenuLink title="Home" link="/" shadowColor={'#003b5c'}/>
-        <MenuLink title="Projects" link="/projects" shadowColor={'#003b5c'}/>
-        <MenuLink title="About" link="/about" shadowColor={'#003b5c'}/>
+        <MenuLink title="Home" link="/" shadowColor={shadowColor}/>
+        <MenuLink title="Projects" link="/projects" shadowColor={shadowColor}/>
+        <MenuLink title="About" link="/about" shadowColor={shadowColor}/>
         {/*<h4 style={{margin:"8px"}}>Menu</h4>*/}
         {/*<NavMenu icon={faBars} size={"2x"} isWhite={true} backgroundColor={"#0072b1"} hoverColor={"#1b9ce3"} activeColor={"#005c8f"} shadowColor={"#003b5c"}/>*/}
       </div>

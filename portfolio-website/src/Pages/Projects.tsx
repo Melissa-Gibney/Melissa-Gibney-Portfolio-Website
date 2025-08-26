@@ -15,7 +15,7 @@ import BumbleMeetCard from '../Components/Project_Cards/BumbleMeetCard';
 function Projects() {
     return (
         <div className='PageContainer'>
-            <Header/>
+            <Header pageName={'Project'}/>
             <div className="PageBody">
                 <div className='Contents'>
                     <div style={{width: "100%", height: "50px", content: ""}}/>

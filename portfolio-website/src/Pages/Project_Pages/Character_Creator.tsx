@@ -6,7 +6,7 @@ import { faDrum } from '@fortawesome/free-solid-svg-icons';
 function CharacterCreator() {
   return (
     <div className="Project">
-        <Header/>
+        <Header pageName={'Project'}/>
         <div className="PageBody">
             <div className='Contents'>
                 <h1>Character Creator</h1>

@@ -6,7 +6,7 @@ import { faDrum } from '@fortawesome/free-solid-svg-icons';
 function GiantEagleAccessibilityDesign() {
   return (
     <div className="Project">
-        <Header/>
+        <Header pageName={'Project'}/>
         <div className="PageBody">
             <div className='Contents'>
                 <h1>Giant Eagle Accessibility Design</h1>

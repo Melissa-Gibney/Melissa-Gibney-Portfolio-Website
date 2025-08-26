@@ -13,7 +13,7 @@ function Home() {
 
     return (
         <div className="Home">
-            <Header/>
+            <Header pageName={'Home'}/>
             <div className='Body'>
                 {/* <img className="ProfilePic" src={"/project_images/general/Professional_Headshot.jpg"} width="200px" height="fit-content" alt=''></img> */}
                 <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>

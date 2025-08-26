@@ -6,7 +6,7 @@ import { faMedium } from '@fortawesome/free-brands-svg-icons';
 function PicoCTFCapstoneProject() {
   return (
     <div className="Project">
-        <Header/>
+        <Header pageName={'Project'}/>
         <div className="PageBody">
             <div className='Contents'>
                 <h1>picoCTF Capstone Project</h1>

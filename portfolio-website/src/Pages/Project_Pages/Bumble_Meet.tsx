@@ -6,7 +6,7 @@ import { faDrum } from '@fortawesome/free-solid-svg-icons';
 function BumbleMeet() {
   return (
     <div className="Project">
-        <Header/>
+        <Header pageName={'Project'}/>
         <div className="PageBody">
             <div className='Contents'>
                 <h1>Bumble Meet</h1>

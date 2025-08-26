@@ -6,7 +6,7 @@ import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 function FluteSynthesizer() {
   return (
     <div className="Project">
-        <Header/>
+        <Header pageName={'Project'}/>
         <div className="PageBody">
             <div className='Contents'>
                 <h1>Flute Synthesizer</h1>

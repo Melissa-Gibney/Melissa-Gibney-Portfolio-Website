@@ -13,7 +13,7 @@ interface AICharacterChatbotProps {
 const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () =>{
     return (
         <div className="Project">
-            <Header/>
+            <Header pageName={'Project'}/>
             <div className="PageBody">
                 <div className='Contents'>
                     <div className='Section' style={{width:"fit-content"}}>

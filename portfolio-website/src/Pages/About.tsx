@@ -4,7 +4,7 @@ import './About.css';
 function About() {
   return (
     <div className="About">
-        <Header/>
+        <Header pageName={'About'}/>
         <h1>About Page Here</h1>
     </div>
   );
