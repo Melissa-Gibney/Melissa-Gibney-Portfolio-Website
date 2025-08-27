@@ -37,7 +37,7 @@ const MenuLink: React.FC<MenuLinkProps> = ({ link, shadowColor, title }) => {
     }
 
     return (
-        <button className="MenuLink" style={{boxShadow: isActive ? ("0px 2px 2px 1px " + shadowColor) : isHovering ? ("0px 2px 6px 4px " + shadowColor) : ("0px 2px 0px 0px " + shadowColor), cursor: isActive || isHovering ? "pointer" : "default"}}
+        <button className="MenuLink" style={{boxShadow: isActive ? ("0px 2px 3px 1px " + shadowColor) : isHovering ? ("0px 2px 6px 4px " + shadowColor) : ("0px 2px 2px 0px " + shadowColor), cursor: isActive || isHovering ? "pointer" : "default"}}
             onMouseDown={() => handleMouseDown()}
             onMouseUp={() => handleMouseUp()}    
             onMouseEnter={() => handleMouseEnter()}
