@@ -7,8 +7,6 @@ interface ListProps {
 }
 
 const List: React.FC<ListProps> = ({ children, title }) => {
-    // const [isWrapped, setIsWrapped] = useState(true);
-    // const [flexDirection, setFlexDirection] = useState('row');
     
     return (
         <div className="List">
