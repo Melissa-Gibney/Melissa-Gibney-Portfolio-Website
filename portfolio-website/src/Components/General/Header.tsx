@@ -8,17 +8,17 @@ interface HeaderProps {
   pageName: "Home" | "Project" | "About";
 }
 
-const Header: React.FC<HeaderProps> = ({ pageName }) =>  {
+const Header: React.FC<HeaderProps> = ({ /*pageName*/ }) =>  {
 
-  var shadowColor = "rgba(92, 218, 126, 0.7)";
-  if(pageName == "Project")
-  {
-    shadowColor = "rgba(136, 92, 218, 0.7)";
-  }
-  else if(pageName == "About")
-  {
-    shadowColor = '#003b5c';
-  }
+  // var shadowColor = "rgba(92, 218, 126, 0.7)";
+  // if(pageName == "Project")
+  // {
+  //   shadowColor = "rgba(136, 92, 218, 0.7)";
+  // }
+  // else if(pageName == "About")
+  // {
+  //   shadowColor = '#003b5c';
+  // }
 
   return (
     <div className="Header">
