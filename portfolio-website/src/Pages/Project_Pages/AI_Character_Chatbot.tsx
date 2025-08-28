@@ -16,9 +16,10 @@ const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () =>{
             <Header pageName={'Project'}/>
             <div className="PageBody">
                 <div className='Contents'>
-                    <div className='Section' style={{width:"fit-content"}}>
+                    <h1>AI Character Chatbot</h1>
+                    {/* <div className='Section' style={{width:"fit-content"}}>
                         <h1>AI Character Chatbot</h1>
-                    </div>
+                    </div> */}
                     <List>
                         <InfoCard title="Role">
                             <h2 style={{width: "100%", textAlign: "center"}}>

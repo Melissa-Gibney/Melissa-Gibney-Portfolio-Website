@@ -1,6 +1,6 @@
 .Home {
     text-align: left;
-    background: linear-gradient(0deg, rgb(35, 87, 49), rgb(38, 40, 47));
+    background: linear-gradient(0deg, rgb(136, 92, 218) 0%, rgb(80, 53, 132) 5%, rgb(53, 35, 87) 15%, rgb(38, 40, 47) 100%);
     color: white;
     display: flex;
     flex-direction: column;

@@ -31,9 +31,9 @@ const Header: React.FC<HeaderProps> = ({ pageName }) =>  {
         </div>
       </div>
       <div className="HeaderRight">
-        <MenuLink title="Home" link="/" shadowColor={shadowColor}/>
-        <MenuLink title="Projects" link="/projects" shadowColor={shadowColor}/>
-        <MenuLink title="About" link="/about" shadowColor={shadowColor}/>
+        <MenuLink title="Home" link="/" shadowColor={"rgba(136, 92, 218, 0.7)"}/>
+        <MenuLink title="Projects" link="/projects" shadowColor={"rgba(136, 92, 218, 0.7)"}/>
+        <MenuLink title="About" link="/about" shadowColor={"rgba(136, 92, 218, 0.7)"}/>
         {/*<h4 style={{margin:"8px"}}>Menu</h4>*/}
         {/*<NavMenu icon={faBars} size={"2x"} isWhite={true} backgroundColor={"#0072b1"} hoverColor={"#1b9ce3"} activeColor={"#005c8f"} shadowColor={"#003b5c"}/>*/}
       </div>

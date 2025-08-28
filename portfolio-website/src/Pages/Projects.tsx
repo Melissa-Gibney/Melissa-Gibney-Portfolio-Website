@@ -21,7 +21,7 @@ function Projects() {
                     <div style={{width: "100%", height: "50px", content: ""}}/>
                     <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>
                         <p>
-                            These projects demonstrate Melissa's <em>techical</em> and <em>creative</em> capabilities.
+                            These projects demonstrate Melissa's <b>techical</b> and <b>creative</b> capabilities.
                             She has worked in many different domains, from audio engineering to cybersecurity, and throughout her education and career, she has maintained her passion for technology and ____.
                             She is excited to continue working on her personal projects in the future!
                         </p>
@@ -36,11 +36,6 @@ function Projects() {
                         <BumbleMeetCard/>
                         {/*<Card image={null} title="Metronome App" description="Prototyped a metronome app in Swift and allowed the user to set tempo and subdivision. The user is able to browse common sheet music sites from within the app."/>*/}
                     </List>
-                    {/* <List title = "Design Projects">
-                        <PicoCTFCapstoneProjectCard/>
-                        <GiantEagleAccessibilityDesignCard/>
-                        <BumbleMeetCard/>
-                    </List> */}
                     <div style={{width: "100%", height: "200px", content: ""}}/>
                 </div>
             </div>
