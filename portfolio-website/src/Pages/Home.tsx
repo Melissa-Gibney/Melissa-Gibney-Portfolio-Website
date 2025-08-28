@@ -1,4 +1,4 @@
-import './Project_Pages.css';
+import './Page.css';
 // import { Link } from 'react-router-dom';
 import Header from '../Components/General/Header';
 import List from '../Components/General/List';
