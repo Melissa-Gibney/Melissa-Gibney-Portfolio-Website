@@ -1,4 +1,4 @@
-import './Projects.css';
+import './Project_Pages.css';
 import Header from '../Components/General/Header';
 import Footer from '../Components/General/Footer';
 // import Background from '../Components/General/Background.js';

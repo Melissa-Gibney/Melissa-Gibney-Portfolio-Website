@@ -1,4 +1,4 @@
-import './Home.css';
+import './Project_Pages.css';
 // import { Link } from 'react-router-dom';
 import Header from '../Components/General/Header';
 import List from '../Components/General/List';
@@ -13,18 +13,20 @@ function Home() {
     // }
 
     return (
-        <div className="Home">
+        <div className="PageContainer">
             <Header pageName={'Home'}/>
-            <div className='Body'>
-                {/* <img className="ProfilePic" src={"/project_images/general/Professional_Headshot.jpg"} width="200px" height="fit-content" alt=''></img> */}
-                <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>
-                    <h1>Melissa Gibney is a UX engineer studying at Carnegie Mellon University. She is enthralled by audio software and AI, and she has a passion for creating <b>clean</b>, <b>playful</b> applications.</h1>
+            <div className='PageBody'>
+                <div className='Contents'>
+                    <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>
+                        <h1>Melissa Gibney is a UX engineer studying at Carnegie Mellon University. She is enthralled by audio software and AI, and she has a passion for creating <b>clean</b>, <b>playful</b> applications.</h1>
+                    </div>
+                    <List title="Highlighted Projects">
+                        <PicoCTFCapstoneProjectCard/>
+                        <RoboticDrumMachineCard/>
+                        <AICharacterChatbotCard/>
+                    </List>
                 </div>
-                <List title="Highlighted Projects">
-                    <PicoCTFCapstoneProjectCard/>
-                    <RoboticDrumMachineCard/>
-                    <AICharacterChatbotCard/>
-                </List>
+                {/* <img className="ProfilePic" src={"/project_images/general/Professional_Headshot.jpg"} width="200px" height="fit-content" alt=''></img> */}
             </div>
             <div className="BubbleContainer">
                 <div style={{"--i":21} as React.CSSProperties}/>
