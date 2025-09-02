@@ -12,53 +12,53 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import PicoCTFCapstoneProject from './Pages/Project_Pages/PicoCTF_Capstone_Project'
 
 function App() {
-  // initialize a browser router
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Home/>,
-    },
-    {
-      path: "/about",
-      element: <About/>,
-    },
-    {
-      path: "/projects",
-      element: <Projects/>,
-    },
-    {
-      path: "/projects/robotic-drum-machine",
-      element: <RoboticDrumMachine/>
-    },
-    {
-      path: "/projects/ai-character-chatbot",
-      element: <AICharacterChatbot/>
-    },
-    {
-      path: "/projects/picoctf-capstone-project",
-      element: <PicoCTFCapstoneProject/>
-    },
-    {
-      path: "/projects/flute-synthesizer",
-      element: <FluteSynthesizer/>
-    },
-    {
-      path: "/projects/character-creator",
-      element: <CharacterCreator/>
-    },
-    {
-      path: "/projects/giant-eagle-accessibility-design",
-      element: <GiantEagleAccessibilityDesign/>
-    },
-    {
-      path: "/projects/bumble-meet",
-      element: <BumbleMeet/>
-    }
-  ])
+  	// initialize a browser router
+  	const router = createBrowserRouter([
+    	{
+      		path: "/",
+      		element: <Home/>,
+    	},
+    	{
+      		path: "/about",
+      		element: <About/>,
+    	},
+    	{
+      		path: "/projects",
+      		element: <Projects/>,
+    	},
+    	{
+      		path: "/projects/robotic-drum-machine",
+      		element: <RoboticDrumMachine/>
+    	},
+    	{
+      		path: "/projects/ai-character-chatbot",
+      		element: <AICharacterChatbot/>
+    	},
+    	{
+      		path: "/projects/picoctf-capstone-project",
+      		element: <PicoCTFCapstoneProject/>
+    	},
+    	{
+      		path: "/projects/flute-synthesizer",
+      		element: <FluteSynthesizer/>
+    	},
+    	{
+      		path: "/projects/character-creator",
+      		element: <CharacterCreator/>
+    	},
+    	{
+      		path: "/projects/giant-eagle-accessibility-design",
+      		element: <GiantEagleAccessibilityDesign/>
+    	},
+    	{
+      		path: "/projects/bumble-meet",
+      		element: <BumbleMeet/>
+    	}
+  	])
 
-  return (
-      <RouterProvider router={router} />
-  )
+  	return (
+      	<RouterProvider router={router} />
+  	)
 }
 
 export default App

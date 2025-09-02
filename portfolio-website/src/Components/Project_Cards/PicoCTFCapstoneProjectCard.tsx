@@ -12,7 +12,7 @@ function PicoCTFCapstoneProjectCard() {
             <Tag name={"React"} color={"rgb(157, 120, 164)"}/>
             <Tag name={"Storybook"} color={"rgb(157, 120, 164)"}/>
             <Tag name={"Docker"} color={"rgb(157, 120, 164)"}/>
-            <Tag name={"Javascript"} color={"rgb(157, 120, 164)"}/>
+            <Tag name={"TypeScript"} color={"rgb(157, 120, 164)"}/>
             <Tag name={"HTML"} color={"rgb(157, 120, 164)"}/>
             <Tag name={"CSS"} color={"rgb(157, 120, 164)"}/>
         </ProjectCard>

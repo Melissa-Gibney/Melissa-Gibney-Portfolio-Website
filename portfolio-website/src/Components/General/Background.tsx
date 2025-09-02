@@ -4,9 +4,9 @@ interface BackgroundProps {}
 
 const Background: React.FC<BackgroundProps> = ({}) =>  {
     
-  return (
-    <div className="Background"/>
-  );
+  	return (
+    	<div className="Background"/>
+  	);
 }
 
 export default Background;
