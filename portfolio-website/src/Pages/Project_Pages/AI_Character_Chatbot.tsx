@@ -1,25 +1,21 @@
 import './Project_Page.css';
 import Header from '../../Components/General/Header';
 import Footer from '../../Components/General/Footer';
-import ExternalLinkButton from '../../Components/General/ExternalLinkButton';
 import List from '../../Components/General/List';
 import InfoCard from '../../Components/General/InfoCard';
-import { faDrum } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 interface AICharacterChatbotProps {
 
 }
 
-const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () =>{
+const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () => {
     return (
         <div className="Project">
             <Header pageName={'Project'}/>
             <div className="PageBody">
                 <div className='Contents'>
                     <h1>AI Character Chatbot</h1>
-                    {/* <div className='Section' style={{width:"fit-content"}}>
-                        <h1>AI Character Chatbot</h1>
-                    </div> */}
                     <List>
                         <InfoCard title="Role">
                             <h2 style={{width: "100%", textAlign: "center"}}>
@@ -42,24 +38,18 @@ const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () =>{
                                 Python
                             </h2>
                         </InfoCard>
-                        <InfoCard title="Skills">
-                            <h2 style={{width: "100%", textAlign: "center"}}>
+                        <InfoCard title="External Link">
+                            {/* <h2 style={{width: "100%", textAlign: "center"}}>
                                 Test
-                            </h2>
+                            </h2> */}
+                            <Link to="">Github</Link>
                         </InfoCard>
                     </List>
                     <div className='Section'>
                         <div>
                             <h3>Summary</h3>
                             <p>
-                                In the future, I plan to add many other features to this bot, including the model control, memory, and tool calling mentioned earlier.
-                                I will also add speech to text and text to speech models in order to communicate with the chatbot via voice.
-                                Before I implement those new features, I am going to fully nail down the character of the LLM, including its values, personality, and manner of speaking.
-                                This change will require me to use an open source solution such as Mistral and then add my own prompts, fine-tuning, and filters to ensure the model does not deviate from what I expect it to output.
-                                I am very excited to continue learning and working on this project!
-                            </p>
-                            <p>
-                                For more information about this project, please check the link below!
+                                
                             </p>
                         </div>
                     </div>
@@ -67,7 +57,7 @@ const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () =>{
                         <div>
                             <h3>Design Decisions</h3>
                             <p>
-                                I have been intrigued by chatbots ever since I began learning computer science in high school, and the advent of LLMs and character-focused chatbots like Neuro-sama only heightened my interest.
+                                I have been intrigued by chatbots ever since I began learning computer science in high school, and the advent of LLMs and character-focused chatbots only heightened my interest.
                                 This project was inspired by Neuro-sama in particular, as I was fascinated by the way that project's LLM is hooked up to a moveable character model.
                                 The movements of the model make the character seem very lifelike, and it adds a level of charm to any mistakes that the LLM makes in its output. 
                             </p>
@@ -128,12 +118,8 @@ const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () =>{
                                 This change will require me to use an open source solution such as Mistral and then add my own prompts, fine-tuning, and filters to ensure the model does not deviate from what I expect it to output.
                                 I am very excited to continue learning and working on this project!
                             </p>
-                            <p>
-                                For more information about this project, please check the link below!
-                            </p>
                         </div>
                     </div>
-                    <ExternalLinkButton link="https://www.hajim.rochester.edu/senior-design-day/beat-buddy-3000-a-robotic-drum-machine/" icon={faDrum} size={"2x"} inverse={true} /*backgroundColor={"#0072b1"} hoverColor={"#1b9ce3"} activeColor={"#005c8f"} shadowColor={"#003b5c"}*//>
                 </div>
             </div>
             <div className='BubbleContainer'>
