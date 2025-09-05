@@ -39,7 +39,7 @@ const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () => {
                             </h2>
                         </InfoCard>
                         <InfoCard title="External Link">
-                            <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Github</b></Link>
+                            <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://github.com/Melissa-Gibney/AI-Character-Chatbot"><b>Github</b></Link>
                         </InfoCard>
                     </List>
                     <div className='Section'>
