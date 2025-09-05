@@ -44,7 +44,7 @@ function CharacterCreator() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Link">
-                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Website</b></Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://github.com/Melissa-Gibney/Character-Creator"><b>Github</b></Link>
                     </InfoCard>
                 </List>
                 <div className='Section'>
