@@ -35,8 +35,8 @@ function FluteSynthesizer() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Links">
-                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Github</b></Link>
-                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="../../../../public/Melissa_Gibney_Flute_Synthesizer_Paper.pdf"><b>Research Paper</b></Link>
+                        <a style={{width: "100%", textAlign: "center", fontSize: "24px"}} href="https://github.com/Melissa-Gibney/Flute-Synthesizer" target='_blank'><b>Github</b></a>
+                        <a style={{width: "100%", textAlign: "center", fontSize: "24px"}} href="/Melissa_Gibney_Flute_Synthesizer_Paper.pdf" target='_blank'><b>Research Paper</b></a>
                     </InfoCard>
                 </List>
                 <div className='Section'>
@@ -62,7 +62,7 @@ function FluteSynthesizer() {
                             I would also change the font to a different one, as the cursive text does not match the futuristic atmosphere of the rest of the application.
                             You can see my planned changes from the original design to a more cohesive one below.
                         </p>
-                        /* Insert Images HERE */
+                        {/* Insert Images HERE */}
                     </div>
                 </div>
                 <div className='Section'>
