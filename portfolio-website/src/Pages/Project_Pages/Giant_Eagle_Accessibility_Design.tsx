@@ -38,14 +38,14 @@ function GiantEagleAccessibilityDesign() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Link">
-                        <Link to="">YouTube Showcase</Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>YouTube Showcase</b></Link>
                     </InfoCard>
                 </List>
                 <div className='Section'>
                     <div>
                         <h3>Summary</h3>
                         <p>
-                            Researched and designed ways to improve accessibility at grocery storess using AR technology.
+                            In a team of four, I researched and designed ways to improve accessibility at grocery stores using AR technology.
                         </p>
                     </div>
                 </div>

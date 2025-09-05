@@ -15,12 +15,15 @@ function FluteSynthesizer() {
                 <List>
                     <InfoCard title="Role">
                         <h2 style={{width: "100%", textAlign: "center"}}>
-                            Artist
+                            Developer
+                        </h2>
+                        <h2 style={{width: "100%", textAlign: "center"}}>
+                            UI/UX Designer
                         </h2>
                     </InfoCard>
                     <InfoCard title="Timeline">
                         <h2 style={{width: "100%", textAlign: "center"}}>
-                            
+                            March 2022-May 2022
                         </h2>
                     </InfoCard>
                     <InfoCard title="Skills">
@@ -32,8 +35,8 @@ function FluteSynthesizer() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Links">
-                        <Link to="">Github</Link>
-                        <Link to="../../Melissa_Gibney_Flute_Synthesizer_Paper.pdf">Research Paper</Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Github</b></Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="../../../../public/Melissa_Gibney_Flute_Synthesizer_Paper.pdf"><b>Research Paper</b></Link>
                     </InfoCard>
                 </List>
                 <div className='Section'>
@@ -53,26 +56,32 @@ function FluteSynthesizer() {
                     <div>
                         <h3>Design Decisions</h3>
                         <p>
-                            
+                            My initial thoughts when designing the interface were that I wanted the parameters to stand out.
+                            As a result, I chose to make each parameter a different bright color.
+                            Knowing what I do now about design, I would do things a bit differently—leaving the dark background and making the parameter boxes each outlined in the same color rather than a different one.
+                            I would also change the font to a different one, as the cursive text does not match the futuristic atmosphere of the rest of the application.
+                            You can see my planned changes from the original design to a more cohesive one below.
                         </p>
+                        /* Insert Images HERE */
                     </div>
                 </div>
                 <div className='Section'>
                     <div>
-                        <h3>Prototype Implementation</h3>
+                        <h3>Technical Implementation</h3>
                         <p>
-                            
+                            The implementation of this synthesizer is based upon research by Perry R. Cook which you may read <a href='http://hdl.handle.net/2027/spo.bbp2372.1992.072' target='_blank'>here</a>.
+                            The first step to creating the synthesizer was 
                         </p>
                     </div>
                 </div>
-                <div className='Section'>
+                {/* <div className='Section'>
                     <div>
-                        <h3>Future Plans</h3>
+                        <h3>Takeaways???</h3>
                         <p>
                             
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <div className='BubbleContainer'>

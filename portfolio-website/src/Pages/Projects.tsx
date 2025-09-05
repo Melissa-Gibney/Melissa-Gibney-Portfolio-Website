@@ -12,6 +12,8 @@ import GiantEagleAccessibilityDesignCard from '../Components/Project_Cards/Giant
 import BumbleMeetCard from '../Components/Project_Cards/BumbleMeetCard';
 // import { Canvas } from '@react-three/fiber';
 
+import '../Scripts/MouseTracking.ts'
+
 function Projects() {
     return (
         <div className='PageContainer'>

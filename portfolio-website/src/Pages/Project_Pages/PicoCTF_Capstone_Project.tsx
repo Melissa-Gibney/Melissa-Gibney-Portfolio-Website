@@ -43,8 +43,8 @@ function PicoCTFCapstoneProject() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Links">
-                        <Link to="">Github</Link>
-                        <Link to="">Website</Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Github</b></Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Website</b></Link>
                     </InfoCard>
                 </List>
                 <div className='Section'>
@@ -66,7 +66,7 @@ function PicoCTFCapstoneProject() {
                 </div>
                 <div className='Section'>
                     <div>
-                        <h3>Prototype Implementation</h3>
+                        <h3>Technical Implementation</h3>
                         <p>
                             
                         </p>

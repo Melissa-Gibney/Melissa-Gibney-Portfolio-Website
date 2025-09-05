@@ -35,13 +35,14 @@ function BumbleMeet() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Link">
-                        <Link to="">Figma</Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Figma</b></Link>
                     </InfoCard>
                 </List>
                 <div className='Section'>
                     <div>
                         <h3>Summary</h3>
                         <p>
+                            This project began as a need to design a new location-based feature 
                             Devised a new feature for the Bumble app that allows users to find public places to meet.
                         </p>
                     </div>

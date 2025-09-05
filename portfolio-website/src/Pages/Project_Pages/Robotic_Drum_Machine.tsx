@@ -38,7 +38,7 @@ function RoboticDrumMachine() {
                             </h2>
                         </InfoCard>
                         <InfoCard title="External Links">
-                            <Link to="https://www.hajim.rochester.edu/senior-design-day/beat-buddy-3000-a-robotic-drum-machine/">Website</Link>
+                            <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://www.hajim.rochester.edu/senior-design-day/beat-buddy-3000-a-robotic-drum-machine/"><b>Website</b></Link>
                         </InfoCard>
                     </List>
                     <div className='Section'>
