@@ -3,7 +3,6 @@ import Header from '../../Components/General/Header.js';
 import Footer from '../../Components/General/Footer.js';
 import List from '../../Components/General/List.js';
 import InfoCard from '../../Components/General/InfoCard.js';
-import { Link } from 'react-router-dom';
 
 function FluteSynthesizer() {
   return (
