@@ -43,7 +43,7 @@ function PicoCTFCapstoneProject() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Links">
-                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Github</b></Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://github.com/picoCTF/MHCI_2025"><b>Github</b></Link>
                         <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Website</b></Link>
                     </InfoCard>
                 </List>

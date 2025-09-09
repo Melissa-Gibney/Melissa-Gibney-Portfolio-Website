@@ -51,13 +51,10 @@ function CharacterCreator() {
                     <div>
                         <h3>Summary</h3>
                         <p>
-                            The idea for this project was to recreate some aspects of Picrew, a popular character creator platform.
+                            The idea for this project was to recreate the image creation system of Picrew, a popular character creator platform.
                             The platform allows artists to upload their artwork in layers, and users can choose different art for each layer and then export the composite image.
-
-
-                            During my undergraduate degree, I dabbled in video game development, so I chose to create pixel art as I was very familiar with that style.
-                    
-                            Designed a web application that allows users to customize their own character using premade pixel art assets.
+                            I enjoy creating characters in my spare time, and I was familiar with pixel art from my time in the video game development club while pursuing my undergraduate degree.
+                            As a result, I designed a web application that allows users to customize their own character using premade pixel art assets.
                             Each design can then be exported as an SVG or PNG.
                         </p>
                     </div>

@@ -18,7 +18,11 @@ function Home() {
             <div className='PageBody'>
                 <div className='Contents'>
                     <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>
-                        <h1>Melissa Gibney is a UX engineer studying at Carnegie Mellon University. She is enthralled by audio software and AI, and she has a passion for creating <b>clean</b>, <b>playful</b> applications.</h1>
+                        <p style={{fontSize: "2em"}}>
+                            Hello! My name is Melissa Gibney, and I am a <b>recent graduate</b> of Carnegie Mellon University.
+                            I am enthralled by audio software and LLMs, and I have a passion for creating <b>clean</b>, <b>playful</b> applications.
+                            I am <b>open to work</b> in frontend, full stack, and UX engineering positions, so please do not hesitate to reach out.
+                        </p>
                     </div>
                     <List title="Highlighted Projects">
                         <PicoCTFCapstoneProjectCard/>

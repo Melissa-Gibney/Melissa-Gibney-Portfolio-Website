@@ -22,10 +22,10 @@ function Projects() {
                 <div className='Contents'>
                     <div style={{width: "100%", height: "50px", content: ""}}/>
                     <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>
-                        <p>
-                            These projects demonstrate Melissa's <b>techical</b> and <b>creative</b> capabilities.
-                            She has worked in many different domains, from audio engineering to cybersecurity, and throughout her education and career, she has maintained her passion for technology and ____.
-                            She is excited to continue working on her personal projects in the future!
+                        <p style = {{fontSize: "2em"}}>
+                            These projects demonstrate my <b>techical</b> and <b>creative</b> capabilities.
+                            I have worked in many different domains, from audio engineering to cybersecurity, and throughout my education and career, I have maintained my passion for technology and creativity.
+                            I am excited to continue working on my personal projects in the future!
                         </p>
                     </div>
                     <List title = "Projects">

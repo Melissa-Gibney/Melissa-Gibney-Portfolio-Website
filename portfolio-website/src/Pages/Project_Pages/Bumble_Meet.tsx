@@ -35,15 +35,17 @@ function BumbleMeet() {
                         </h2>
                     </InfoCard>
                     <InfoCard title="External Link">
-                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to=""><b>Figma</b></Link>
+                        <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://www.figma.com/design/aPnKnVUM8CzhBjqNlAfkV8/Bumble-Design?node-id=1-3&t=Q7AZ07Cg7N30iySV-1"><b>Figma</b></Link>
                     </InfoCard>
                 </List>
                 <div className='Section'>
                     <div>
                         <h3>Summary</h3>
                         <p>
-                            This project began as a need to design a new location-based feature 
-                            Devised a new feature for the Bumble app that allows users to find public places to meet.
+                            This project began as a need to design a new location-based feature for the Bumble app.
+                            The goal for this feature was to ensure that users can connect with one another yet still feel safe while using the app.
+                            In order to account for this, the new feature uses geofencing to allow users to find public spaces to meet.
+                            The decision to incorporate geofencing in this way allows users to maintain privacy and safety while still meeting face-to-face.
                         </p>
                     </div>
                 </div>
@@ -51,7 +53,8 @@ function BumbleMeet() {
                     <div>
                         <h3>Design Decisions</h3>
                         <p>
-                            
+                            The biggest hurdle to this project was finding a way to meet every design need for users while also bringing value to Bumble as a company.
+
                         </p>
                     </div>
                 </div>

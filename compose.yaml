@@ -10,7 +10,7 @@
 services:
   portfolio-website:
     container_name: portfolio-website
-    image: repository/portfolio-website
+    image: portfolio-website
     build:
       dockerfile: portfolio-website.Dockerfile
       context: ./portfolio-website

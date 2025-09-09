@@ -23,7 +23,7 @@ function RoboticDrumMachine() {
                         </InfoCard>
                         <InfoCard title="Timeline">
                             <h2 style={{width: "100%", textAlign: "center"}}>
-                                August 2023 - May 2024
+                                October 2023 - May 2024
                             </h2>
                         </InfoCard>
                         <InfoCard title="Skills">
@@ -38,6 +38,7 @@ function RoboticDrumMachine() {
                             </h2>
                         </InfoCard>
                         <InfoCard title="External Links">
+                            <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://github.com/Melissa-Gibney/Robotic-Drummer"><b>Github</b></Link>
                             <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://www.hajim.rochester.edu/senior-design-day/beat-buddy-3000-a-robotic-drum-machine/"><b>Website</b></Link>
                         </InfoCard>
                     </List>
@@ -57,6 +58,13 @@ function RoboticDrumMachine() {
                             <p>
                                 The first half of the project was spent researching what products were already on the market and learning exactly what was needed to create a successful robotic drum machine.
                                 We examined the price points of each product, the materials that were used, and the software involved.
+                                I focused on the interface design and made a protoype using C++ and JUCE which we tested with others within the audio and music engineering major.
+                                The layout of the interface was similar to that of a physical drum machine in order to match users' expectations with how those machines operate.
+                                The biggest struggle with designing the layout of the interface was determining how we wanted users to control each of our parameters.
+                                How do they control what is shown on the OLED screen?
+                                Would having too many knobs confuse users?
+                                Should there be a separate knob to control subdivisions?
+                                The feedback from others caused us to use one knob to scroll through what was on the screen and use buttons to change which parameter that knob affected. 
                             </p>
                         </div>
                     </div>
@@ -64,21 +72,22 @@ function RoboticDrumMachine() {
                         <div>
                             <h3>Prototype Implementation</h3>
                             <p>
-                                In the second half of the school year, my job was focused on 3D modeling the enclosure and drum attachments, along with programming some parts of the Arduino Mega controller.
+                                After recieving feedback on the enclosure and determining our materials, we split into different roles.
+                                In the second half of the project, my job was focused on 3D modeling the enclosure and drum attachments, along with programming some parts of the Arduino Mega controller.
                                 We settled on a 3D modeled enclosure due to the budget constraints, and I went through multiple iterations of each part while determining how to fit all of our electronics together.
                                 This whole process made me very familiar with Fusion360, the CAD software we were using, and it also helped me understand how measurement tolerances factor into designing enclosures for electronics.
-                                Programming the Arduino Mega was a new experience for me as well, as I had not programmed in that language previously.
-                                The project helped me understand how software interacts with hardware clocks and also brought home the importance of understanding the exact input and output each piece of hardware can take.
-                                Our OLED display required that we rewire it in order to work with the specific input that we needed.
-                                The hardware needed for the input and output was there, and it was listed on the spec sheet of the OLED screen, but it was not easy to access.
+                                Programming the Arduino Mega was a new experience for me as well, as I had not programmed in that language before the start of this project.
+                                __________
                             </p>
                         </div>
                     </div>
                     <div className='Section'>
                         <div>
-                            <h3>Final Showcase</h3>
+                            <h3>Takeaways</h3>
                             <p>
-                          
+                                The project helped me understand how software interacts with hardware clocks and also brought home the importance of understanding the exact input and output each piece of hardware can take.
+                                Our OLED display required that we rewire it in order to work with the specific input that we needed.
+                                The hardware needed for the input and output was there, and it was listed on the spec sheet of the OLED screen, but it was not easy to access.
                             </p>
                         </div>
                     </div>

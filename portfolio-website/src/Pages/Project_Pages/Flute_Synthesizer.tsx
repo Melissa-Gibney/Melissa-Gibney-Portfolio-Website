@@ -3,6 +3,7 @@ import Header from '../../Components/General/Header.js';
 import Footer from '../../Components/General/Footer.js';
 import List from '../../Components/General/List.js';
 import InfoCard from '../../Components/General/InfoCard.js';
+// import { Link } from 'react-router-dom';
 
 function FluteSynthesizer() {
   return (
@@ -69,7 +70,11 @@ function FluteSynthesizer() {
                         <h3>Technical Implementation</h3>
                         <p>
                             The implementation of this synthesizer is based upon research by Perry R. Cook which you may read <a href='http://hdl.handle.net/2027/spo.bbp2372.1992.072' target='_blank'>here</a>.
-                            The first step to creating the synthesizer was 
+                            The first step to creating the synthesizer was setting up the MIDI input.
+                        </p>
+                        {/* Insert MIDI Code Image HERE */}
+                        <p>
+                            This takes the frequency specified by a keyboard and ____
                         </p>
                     </div>
                 </div>
