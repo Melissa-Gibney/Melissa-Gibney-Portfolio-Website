@@ -70,12 +70,25 @@ function FluteSynthesizer() {
                         <h3>Technical Implementation</h3>
                         <p>
                             The implementation of this synthesizer is based upon research by Perry R. Cook which you may read <a href='http://hdl.handle.net/2027/spo.bbp2372.1992.072' target='_blank'>here</a>.
-                            The first step to creating the synthesizer was setting up the MIDI input.
+                            The first step to creating the synthesizer was setting up the inputs.
+                            MIDI input is taken from the user, and the pitch and velocity are then used in calculations throughout the synthesizer code.
+                            The pitch of the output is created by a sine wave that uses a frequency received from the MIDI input.
+                            The breath pressure comes from the MIDI input as well, and it uses the MIDI velocity to calculate the appropriate pressure.
+                            The attack-sustain-decay-release envelope and the pressure received from MIDI input create the initial signal, and then the vibrato and noise gain change the signal in order to create a flute-like sound.
+                            The vibrato is generated using a sine wave, and its amplitude and frequency can be controlled by the user.
+                            The next steps after generating the initial signal and is to model the feedback that occurs within a flute due to the way it is played.
+                        </p>
+                        <p>
+                            Flute has a unique tone in part due to the way that air moves within the instrument.
+                            A flute acts as a tube that is closed on one end, known as a bore—air is reflected off of the closed end and also interacts with the air that the player is blowing into the instrument.
+                            Jet delay is used to simulate the interaction between the player's airstream and the air that is already moving inside of the flute, while bore delay deals with the interaction between the air jet and the air that is already in the bore of the flute.
+                        </p>
+                        <p>
+                            The final stage of this synthesizer consists of a simple lowpass filter, a switch to turn the synthesizer on and off, and a gain slider to adjust the volume of the output.
+                            The onepole function creates the lowpass filter with the pole at a frequency provided by the user.
+                            The output from the onepole function is sent both to the gain slider and to the bore delay to create a feedback loop.
                         </p>
                         {/* Insert MIDI Code Image HERE */}
-                        <p>
-                            This takes the frequency specified by a keyboard and ____
-                        </p>
                     </div>
                 </div>
                 {/* <div className='Section'>

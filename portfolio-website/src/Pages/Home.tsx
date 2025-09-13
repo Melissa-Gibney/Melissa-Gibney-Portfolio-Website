@@ -3,9 +3,9 @@ import './Page.css';
 import Header from '../Components/General/Header';
 import List from '../Components/General/List';
 import AICharacterChatbotCard from '../Components/Project_Cards/AICharacterChatbotCard'
-import RoboticDrumMachineCard from '../Components/Project_Cards/RoboticDrumMachineCard';
 import PicoCTFCapstoneProjectCard from '../Components/Project_Cards/PicoCTFCapstoneProjectCard';
 import Footer from '../Components/General/Footer';
+import CharacterCreatorCard from '../Components/Project_Cards/CharacterCreatorCard';
 
 function Home() {
 
@@ -26,7 +26,7 @@ function Home() {
                     </div>
                     <List title="Highlighted Projects">
                         <PicoCTFCapstoneProjectCard/>
-                        <RoboticDrumMachineCard/>
+                        <CharacterCreatorCard/>
                         <AICharacterChatbotCard/>
                     </List>
                 </div>

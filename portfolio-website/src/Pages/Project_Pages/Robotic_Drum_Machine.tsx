@@ -49,6 +49,7 @@ function RoboticDrumMachine() {
                                 I collaborated with a three-person team to create the Beat Buddy 3000 over the course of the fall and spring semesters of my senior year during my undergraduate degrees.
                                 During the course of the project, we discussed our ideas and designs both with our mentors and with our client, an alumni of the Audio and Music Engineering major.
                                 We engineered our prototype to remain under a budget of $500 USD, and we carefully chose parts that best fit our use case.
+                                The project helped me understand how software interacts with hardware clocks and also brought home the importance of understanding the exact input and output each piece of hardware can take.
                             </p>
                         </div>
                     </div>
@@ -76,18 +77,6 @@ function RoboticDrumMachine() {
                                 In the second half of the project, my job was focused on 3D modeling the enclosure and drum attachments, along with programming some parts of the Arduino Mega controller.
                                 We settled on a 3D modeled enclosure due to the budget constraints, and I went through multiple iterations of each part while determining how to fit all of our electronics together.
                                 This whole process made me very familiar with Fusion360, the CAD software we were using, and it also helped me understand how measurement tolerances factor into designing enclosures for electronics.
-                                Programming the Arduino Mega was a new experience for me as well, as I had not programmed in that language before the start of this project.
-                                __________
-                            </p>
-                        </div>
-                    </div>
-                    <div className='Section'>
-                        <div>
-                            <h3>Takeaways</h3>
-                            <p>
-                                The project helped me understand how software interacts with hardware clocks and also brought home the importance of understanding the exact input and output each piece of hardware can take.
-                                Our OLED display required that we rewire it in order to work with the specific input that we needed.
-                                The hardware needed for the input and output was there, and it was listed on the spec sheet of the OLED screen, but it was not easy to access.
                             </p>
                         </div>
                     </div>

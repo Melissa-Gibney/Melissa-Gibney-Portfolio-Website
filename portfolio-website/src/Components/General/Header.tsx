@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ /*pageName*/ }) =>  {
       		<div className="HeaderRight">
         		<MenuLink title="Home" link="/" shadowColor={"rgba(136, 92, 218, 0.7)"}/>
         		<MenuLink title="Projects" link="/projects" shadowColor={"rgba(136, 92, 218, 0.7)"}/>
-        		<MenuLink title="About" link="/about" shadowColor={"rgba(136, 92, 218, 0.7)"}/>
+        		{/* <MenuLink title="About" link="/about" shadowColor={"rgba(136, 92, 218, 0.7)"}/> */}
       		</div>
     	</div>
   	);

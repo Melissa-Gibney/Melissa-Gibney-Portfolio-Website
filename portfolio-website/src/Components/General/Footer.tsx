@@ -10,10 +10,10 @@ const Footer: React.FC<FooterProps> = ({ }) => {
     	<div className="Footer">
         	<div className='FooterContent'>
             	<div className="FooterColumn">
-                	<h2>Footer Left</h2>
+                	{/* <h2>Footer Left</h2> */}
             	</div>
             	<div className="FooterColumn">
-                	<h2>Footer Right</h2>
+                	{/* <h2>Footer Right</h2> */}
             	</div>
         	</div>
     	</div>
