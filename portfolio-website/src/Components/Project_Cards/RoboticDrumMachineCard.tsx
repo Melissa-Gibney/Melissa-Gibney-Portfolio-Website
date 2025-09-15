@@ -3,7 +3,7 @@ import Tag from "../General/Tag";
 
 function RoboticDrumMachineCard() {
     const title = "Robotic Drum Machine"
-    const imageRef = "project_images/character_creator/character_creator_thumbnail.svg"
+    const imageRef = "project_images/robotic_drum_machine/Senior-Design-Enclosure.jpg"
     const link = "/projects/robotic-drum-machine"
     return (
         <ProjectCard title={title} imageRef={imageRef} link={link} description={""} imagePadding={"0px"}>

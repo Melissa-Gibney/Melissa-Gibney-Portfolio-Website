@@ -7,7 +7,7 @@ interface AICharacterChatbotCardProps{
 
 const AICharacterChatbotCard: React.FC<AICharacterChatbotCardProps> = () => {
     const title = "AI Character Chatbot"
-    const imageRef = "project_images/character_creator/character_creator_thumbnail.svg"
+    const imageRef = "project_images/ai_character_chatbot/thumbnail.png"
     const link = "/projects/ai-character-chatbot"
     return (
         <ProjectCard title={title} imageRef={imageRef} link={link} description={""} imagePadding={"0px"}>

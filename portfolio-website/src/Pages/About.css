@@ -7,3 +7,11 @@
     align-items: normal;
     min-width: fit-content;
 }
+
+.SVG{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width:200px;
+    height:200px;
+}

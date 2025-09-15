@@ -84,7 +84,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageR
                 <div className='CardContent'>
                     {/* <div className='CardHighlight' ref={highlight}/> */}
                     <svg className='SVG' style={{paddingTop: imagePadding, paddingBottom: imagePadding}}>
-                        <image href={imageRef} width="100%" height="100%" preserveAspectRatio='xMidYMid'/>
+                        <image href={imageRef} style={{borderRadius: "10px"}} width="100%" height="100%" preserveAspectRatio='xMidYMid'/>
                     </svg>
                     <div className='TextContainer'>
                         <h2 style={{margin: "0px", marginBottom: "10px"}}>{title}</h2>

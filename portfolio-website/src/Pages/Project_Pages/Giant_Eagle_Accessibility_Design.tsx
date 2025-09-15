@@ -11,7 +11,7 @@ function GiantEagleAccessibilityDesign() {
         <Header pageName={'Project'}/>
         <div className="PageBody">
             <div className='Contents'>
-                <h1>Giant Eagle Accessibility Design</h1>
+                <h1>Grocery Store Accessibility Design</h1>
                 <List>
                     <InfoCard title="Role">
                         <h2 style={{width: "100%", textAlign: "center"}}>

@@ -65,9 +65,9 @@ function PicoCTFCapstoneProject() {
                             During this phase of the project, we all split up tasks amongst the team and conducted surveys, user interviews, subject matter expert interviews, and a focus group.
                             We all took part in each of these tasks, and after each step in our research, we combined our insights and used them to determine our next steps.
                         </p>
-                        <p>
+                        {/* <p>
                             My main roles in this process were to handle _____
-                        </p>
+                        </p> */}
                         <p>
                             By the end of this research phase, we had settled on three main directions to explore with our designs: making users confident, determined, and social.
                             We then moved on to testing and iterating upon a wide variety of designs.
@@ -77,10 +77,10 @@ function PicoCTFCapstoneProject() {
                 <div className='Section'>
                     <div>
                         <h3>Design Decisions</h3>
-                        <p>
+                        {/* <p>
                             Our parallel prototyping design phase began with each of us coming up with 5 to 8 ideas per design direction, leading to over 150 sketches of our ideas.
                             The next step was to _____
-                        </p>
+                        </p> */}
                         <p>
                             While the main designs for each page fell to other members of my team as I was working on technical implementation, I gave feedback on designs with respect to their technical feasibility and UX design.
                             We agreed to use the <a href='https://www.heroui.com/'>HeroUI library</a> before starting the design and implementation process, so we were all aligned on the UI style and functionality of built-in components.
