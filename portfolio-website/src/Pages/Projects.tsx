@@ -24,8 +24,8 @@ function Projects() {
                     <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>
                         <p style = {{fontSize: "2em"}}>
                             These projects demonstrate my <b>techical</b> and <b>creative</b> capabilities.
-                            I have worked in many different domains, from audio engineering to cybersecurity, and throughout my education and career, I have maintained my passion for technology and creativity.
-                            I am excited to continue working on my personal projects in the future!
+                            I have worked in many different industries, from audio engineering to cybersecurity, and throughout my education and career, I have maintained my passion for technology and creativity.
+                            I am continuing work on some of these projects, and I am excited to share more about them in the future!
                         </p>
                     </div>
                     <List title = "Projects">

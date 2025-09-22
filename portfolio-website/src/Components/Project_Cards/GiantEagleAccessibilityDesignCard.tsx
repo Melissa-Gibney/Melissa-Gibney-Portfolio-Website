@@ -3,7 +3,7 @@ import Tag from "../General/Tag";
 
 function GiantEagleAccessibilityDesignCard() {
     const title = "Grocery Store Accessibility Design";
-    const imageRef = "project_images/giant_eagle_accessibility_design/thumbnail.png";
+    const imageRef = "project_images/giant_eagle_accessibility_design/thumbnail.svg";
     const link = "/projects/giant-eagle-accessibility-design";
     return (
         <Card title={title} imageRef={imageRef} link={link} description={""} imagePadding={"10px"}>

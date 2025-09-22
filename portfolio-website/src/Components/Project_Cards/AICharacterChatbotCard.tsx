@@ -1,13 +1,11 @@
 import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
 
-interface AICharacterChatbotCardProps{
-
-}
+interface AICharacterChatbotCardProps{}
 
 const AICharacterChatbotCard: React.FC<AICharacterChatbotCardProps> = () => {
     const title = "AI Character Chatbot"
-    const imageRef = "project_images/ai_character_chatbot/thumbnail.png"
+    const imageRef = "project_images/ai_character_chatbot/ai_character_chatbot_thumbnail.svg"
     const link = "/projects/ai-character-chatbot"
     return (
         <ProjectCard title={title} imageRef={imageRef} link={link} description={""} imagePadding={"0px"}>
