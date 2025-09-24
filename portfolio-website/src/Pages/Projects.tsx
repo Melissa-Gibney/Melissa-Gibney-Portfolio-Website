@@ -29,11 +29,11 @@ function Projects() {
                         </p>
                     </div>
                     <List title = "Projects">
-                        <RoboticDrumMachineCard/>
                         <PicoCTFCapstoneProjectCard/>
                         <CharacterCreatorCard/>
                         <AICharacterChatbotCard/>
                         <FluteSynthesizerCard/>
+                        <RoboticDrumMachineCard/>
                         <GiantEagleAccessibilityDesignCard/>
                         <BumbleMeetCard/>
                         {/*<Card image={null} title="Metronome App" description="Prototyped a metronome app in Swift and allowed the user to set tempo and subdivision. The user is able to browse common sheet music sites from within the app."/>*/}

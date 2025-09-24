@@ -6,24 +6,29 @@ import AICharacterChatbotCard from '../Components/Project_Cards/AICharacterChatb
 import PicoCTFCapstoneProjectCard from '../Components/Project_Cards/PicoCTFCapstoneProjectCard';
 import Footer from '../Components/General/Footer';
 import CharacterCreatorCard from '../Components/Project_Cards/CharacterCreatorCard';
+// import GDMSInternshipModal from '../Components/Work_Experience/GDMS_Internship_Modal';
 
 function Home() {
-
-    // const handleClick = () => {
-    // }
 
     return (
         <div className="PageContainer">
             <Header pageName={'Home'}/>
+            <svg style={{width: "100%"}}>
+                <image href={"./header_background.svg"} width="100%" height="100%" preserveAspectRatio='xMidYMid'/>
+            </svg>
             <div className='PageBody'>
                 <div className='Contents'>
                     <div className='Section' style={{marginTop: "100px", marginBottom: "100px"}}>
                         <p style={{fontSize: "2em"}}>
                             Hello! My name is Melissa Gibney, and I am a <b>recent graduate</b> of Carnegie Mellon University.
-                            I am enthralled by audio software and LLMs, and I have a passion for creating <b>clean</b>, <b>playful</b> applications.
+                            I am enthralled by audio software and LLMs, and I have a passion for creating <b>elegant yet playful</b> applications.
                             I am <b>open to work</b> in frontend, full stack, and UX engineering positions, so please do not hesitate to reach out.
                         </p>
                     </div>
+                    {/* <List title="Work Experience">
+                        <GDMSInternshipModal/>
+                        <GDMSInternshipModal/>
+                    </List> */}
                     <List title="Highlighted Projects">
                         <PicoCTFCapstoneProjectCard/>
                         <CharacterCreatorCard/>
@@ -32,7 +37,7 @@ function Home() {
                 </div>
                 {/* <img className="ProfilePic" src={"/project_images/general/Professional_Headshot.jpg"} width="200px" height="fit-content" alt=''></img> */}
             </div>
-            <div className="BubbleContainer">
+            {/* <div className="BubbleContainer">
                 <div style={{"--i":21} as React.CSSProperties}/>
                 <div style={{"--i":10} as React.CSSProperties}/>
                 <div style={{"--i":49} as React.CSSProperties}/>
@@ -44,7 +49,7 @@ function Home() {
                 <div style={{"--i":41} as React.CSSProperties}/>
                 <div style={{"--i":35} as React.CSSProperties}/>
                 <div style={{"--i":25} as React.CSSProperties}/>
-            </div>
+            </div> */}
             <Footer pageName={'Home'}/>
         </div>
     );

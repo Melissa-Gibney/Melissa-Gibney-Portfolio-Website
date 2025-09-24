@@ -3,7 +3,7 @@ import Tag from "../General/Tag";
 
 function FluteSynthesizerCard() {
     const title = "Flute Synthesizer";
-    const imageRef = "project_images/flute_synthesizer/synthesizer_thumbnail.png";
+    const imageRef = "project_images/flute_synthesizer/flute_synthesizer_thumbnail.svg";
     const link = "/projects/flute-synthesizer";
     return (
         <ProjectCard title={title} imageRef={imageRef} link={link} description={""} imagePadding={"10px"}>

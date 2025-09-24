@@ -1,0 +1,21 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+
+    background-color: rgba(38, 40, 47, 0.8);
+    backdrop-filter: blur(3px);
+}
+
+.ModalContents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
