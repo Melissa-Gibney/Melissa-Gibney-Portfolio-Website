@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1
+# syntax=docker/dockerfile:1.0
 
 # Comments are provided throughout this file to help you get started.
 # If you need more help, visit the Dockerfile reference guide at
@@ -13,7 +13,6 @@ FROM node:${NODE_VERSION}-alpine
 # Use production node environment by default.
 ENV NODE_ENV=production
 
-
 WORKDIR /app
 
 # Download dependencies as a separate step to take advantage of Docker's caching.
@@ -25,7 +24,7 @@ WORKDIR /app
 #     --mount=type=cache,target=/root/.npm \
 #     npm ci --omit=dev
 
-COPY package*.json /app
+COPY package*.json .
 
 RUN npm install --include=dev
 
@@ -33,7 +32,7 @@ RUN npm install --include=dev
 # USER node
 
 # Copy the rest of the source files into the image.
-COPY / /app
+COPY / .
 
 # Expose the port that the application listens on.
 EXPOSE 5173

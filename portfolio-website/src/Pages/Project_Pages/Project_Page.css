@@ -11,7 +11,7 @@
     overflow: clip;
 }
 
-.PageBody {
+/* .PageBody {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +20,7 @@
     margin-right: 10%;
     min-width: fit-content;
     width: 100% - 20%;
-}
+} */
 
 .Contents {
     display: flex;
