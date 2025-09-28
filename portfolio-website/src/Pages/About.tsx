@@ -27,7 +27,7 @@ function About() {
 				</div>
 				<div className="Section">
 					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
-						<image href={'/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
+						<image href={'../../public/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
 					</svg>
 					<p>
 						In addition to character and asset modeling, I have also dabbled in 3D printing.
