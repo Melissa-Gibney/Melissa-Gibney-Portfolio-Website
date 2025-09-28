@@ -5,9 +5,9 @@ import './Page.css';
 function About() {
   	return (
     	<div className="PageContainer">
-        	<Header pageName={'About'}/>
-       		<div className='PageBody'>
-            	<div className='Section'>
+			<div className="HeroContainer">
+				<Header pageName={'About'}/>
+				<div className='Section'>
 					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
 						<image href={'/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
 					</svg>
@@ -16,6 +16,8 @@ function About() {
 						A few of my hobbies include 3D modeling and printing, game development, and pixel art.
 					</p>
 				</div>
+			</div>
+       		<div className='PageBody'>
 				<div className="Section">
 					<p>
 						I picked up my 3D modeling and game development hobbies in early 2021 and have been experimenting in those mediums ever since!
