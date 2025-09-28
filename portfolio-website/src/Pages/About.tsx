@@ -9,7 +9,7 @@ function About() {
 				<Header pageName={'About'}/>
 				<div className='Section' style={{ justifyItems: "center", marginTop: "50px", marginBottom: "250px", marginInline: "10%"}}>
 					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
-						<image href={'/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
+						<image href={'../../public/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
 					</svg>
 					<p style={{marginLeft: "10px"}}>
 						Hello! I'm Melissa, and in my free time I love combining art and technology to create beautiful, interactive experiences.
