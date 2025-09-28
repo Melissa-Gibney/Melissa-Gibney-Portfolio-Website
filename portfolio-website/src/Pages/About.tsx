@@ -7,7 +7,7 @@ function About() {
     	<div className="PageContainer">
 			<div className="HeroContainer">
 				<Header pageName={'About'}/>
-				<div className='Section'>
+				<div className='Section' style={{ justifyItems: "center", marginTop: "50px", marginBottom: "250px", marginInline: "10%"}}>
 					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
 						<image href={'/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
 					</svg>
