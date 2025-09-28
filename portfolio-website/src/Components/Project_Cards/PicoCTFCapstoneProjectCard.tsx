@@ -2,7 +2,7 @@ import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
 
 function PicoCTFCapstoneProjectCard() {
-    const title = "picoCTF Captone Project";
+    const title = "picoCTF Capstone Project";
     const imageRef = "project_images/picoctf_capstone_project/picoCTF_logo.png";
     const link = "/projects/picoctf-capstone-project";
     return (
