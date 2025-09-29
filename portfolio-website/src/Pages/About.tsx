@@ -11,7 +11,7 @@ function About() {
 					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
 						<image href={'../../public/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
 					</svg>
-					<p style={{fontSize: "2em", marginLeft: "10px"}}>
+					<p style={{fontSize: "2em", marginLeft: "10px", width: "fill"}}>
 						Hello! I'm Melissa, and in my free time I love combining art and technology to create beautiful, interactive experiences.
 						A few of my hobbies include 3D modeling and printing, game development, and pixel art.
 					</p>
