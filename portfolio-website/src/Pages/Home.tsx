@@ -18,7 +18,7 @@ function Home() {
                 <div className='Section' style={{ justifyItems: "center", marginTop: "270px", marginBottom: "300px", marginInline: "10%"}}>
                     <p style={{fontSize: "2em"}}>
                         Hello! My name is Melissa Gibney, and I am a <b>recent graduate</b> of Carnegie Mellon University.
-                        I am enthralled by audio software and LLMs, and I have a passion for creating <b>elegant yet playful</b> applications.
+                        I am fascinated by audio software and LLMs, and I have a passion for creating <b>elegant yet playful</b> applications.
                         I am <b>open to work</b> in frontend, full stack, and UX engineering positions, so please do not hesitate to reach out.
                     </p>
                 </div>
