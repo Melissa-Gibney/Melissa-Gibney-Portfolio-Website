@@ -6,7 +6,7 @@ interface CylabProps {}
 const CylabExternshipModal: React.FC<CylabProps> = ({  }) => {
     let [isOpen, updateIsOpen] = useState(false);
 
-    const imageRef = "work_experience_images/cylab_extern/cylab-logo.svg";
+    const imageRef = "./work_experience_images/cylab_extern/cylab-logo.svg";
 
     return (
         <>
