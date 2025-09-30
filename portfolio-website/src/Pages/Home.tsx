@@ -37,19 +37,6 @@ function Home() {
                 <div style={{width: "100%", height: "100px", content: ""}}/>
                 {/* <img className="ProfilePic" src={"/project_images/general/Professional_Headshot.jpg"} width="200px" height="fit-content" alt=''></img> */}
             </div>
-            {/* <div className="BubbleContainer">
-                <div style={{"--i":21} as React.CSSProperties}/>
-                <div style={{"--i":10} as React.CSSProperties}/>
-                <div style={{"--i":49} as React.CSSProperties}/>
-                <div style={{"--i":35} as React.CSSProperties}/>
-                <div style={{"--i":80} as React.CSSProperties}/>
-                <div style={{"--i":63} as React.CSSProperties}/>
-                <div style={{"--i":28} as React.CSSProperties}/>
-                <div style={{"--i":55} as React.CSSProperties}/>
-                <div style={{"--i":41} as React.CSSProperties}/>
-                <div style={{"--i":35} as React.CSSProperties}/>
-                <div style={{"--i":25} as React.CSSProperties}/>
-            </div> */}
             <Footer pageName={'Home'}/>
         </div>
     );
