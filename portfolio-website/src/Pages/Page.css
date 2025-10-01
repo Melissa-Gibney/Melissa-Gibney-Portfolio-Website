@@ -12,7 +12,7 @@
 }
 
 .HeroContainer {
-    background-image: url("../../public/header_background.svg");
+    background-image: url("../../header_background.svg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
