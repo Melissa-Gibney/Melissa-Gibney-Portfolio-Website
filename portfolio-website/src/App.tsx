@@ -1,7 +1,7 @@
 import './App.css'
 import Home from './Pages/Home'
 // import About from './Pages/About'
-import Projects from './Pages/Projects'
+// import Projects from './Pages/Projects'
 import RoboticDrumMachine from './Pages/Project_Pages/Robotic_Drum_Machine'
 import AICharacterChatbot from './Pages/Project_Pages/AI_Character_Chatbot'
 import FluteSynthesizer from './Pages/Project_Pages/Flute_Synthesizer'
@@ -22,10 +22,10 @@ function App() {
       	// 	path: "/about",
       	// 	element: <About/>,
     	// },
-    	{
-      		path: "/projects",
-      		element: <Projects/>,
-    	},
+    	// {
+      	// 	path: "/projects",
+      	// 	element: <Projects/>,
+    	// },
     	{
       		path: "/projects/robotic-drum-machine",
       		element: <RoboticDrumMachine/>
