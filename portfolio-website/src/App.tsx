@@ -1,6 +1,6 @@
 import './App.css'
 import Home from './Pages/Home'
-// import About from './Pages/About'
+import About from './Pages/About'
 // import Projects from './Pages/Projects'
 import RoboticDrumMachine from './Pages/Project_Pages/Robotic_Drum_Machine'
 import AICharacterChatbot from './Pages/Project_Pages/AI_Character_Chatbot'
@@ -18,10 +18,10 @@ function App() {
       		path: "/",
       		element: <Home/>,
     	},
-    	// {
-      	// 	path: "/about",
-      	// 	element: <About/>,
-    	// },
+    	{
+      		path: "/about",
+      		element: <About/>,
+    	},
     	// {
       	// 	path: "/projects",
       	// 	element: <Projects/>,
