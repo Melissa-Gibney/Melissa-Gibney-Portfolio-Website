@@ -4,11 +4,12 @@ import { useState } from 'react';
 
 interface MenuLinkProps {
     link: string;
+    isInternal: boolean;
     shadowColor: string;
     title: string;
 }
 
-const MenuLink: React.FC<MenuLinkProps> = ({ link, shadowColor, title }) => {
+const MenuLink: React.FC<MenuLinkProps> = ({ link, isInternal, shadowColor, title }) => {
 
     const navigate = useNavigate();
 
@@ -33,7 +34,12 @@ const MenuLink: React.FC<MenuLinkProps> = ({ link, shadowColor, title }) => {
     };
 
     const handleClick = () => {
-        navigate(link);
+        if(isInternal) {
+            navigate(link);
+        }
+        else {
+            window.open(link);
+        }
     }
 
     return (
