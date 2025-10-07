@@ -8,9 +8,9 @@ function About() {
 			<div className="HeroContainer">
 				<Header pageName={'About'}/>
 				<div className='Section' style={{ justifyItems: "center", marginTop: "270px", marginBottom: "300px", marginInline: "10%"}}>
-					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
+					{/* <svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
 						<image href={'/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
-					</svg>
+					</svg> */}
 					<p style={{fontSize: "2em", marginLeft: "10px", width: "fill"}}>
 						Hello! I'm Melissa, and in my free time I love combining art and technology to create beautiful, interactive experiences.
 						A few of my hobbies include 3D modeling and printing, game development, and pixel art.
@@ -26,9 +26,9 @@ function About() {
 					</p>
 				</div>
 				<div className="Section">
-					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
+					{/* <svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
 						<image href={'/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
-					</svg>
+					</svg> */}
 					<p>
 						In addition to character and asset modeling, I have also dabbled in 3D printing.
 						My favorite 3D printing project was a little pumpkin that I made for a competition while pursuing my undergraduate degrees.
