@@ -35,6 +35,7 @@
     padding-bottom: 200px;
     padding-left: 10%;
     padding-right: 10%;
+    gap: 20px;
     background: linear-gradient(180deg, rgb(44, 38, 47) 0%, rgb(66, 35, 87) 90%, rgb(107, 53, 132) 95%, rgb(180, 92, 218) 100%);
     z-index: 0;
 }

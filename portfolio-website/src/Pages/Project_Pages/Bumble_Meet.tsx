@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 function BumbleMeet() {
   return (
     <div className="Project">
-        <Header pageName={'Project'}/>
-        <div className="PageBody">
-            <div className='Contents'>
+        <div className='HeroContainer'>
+            <Header pageName={'Project'}/>
+            <div style={{marginTop: "100px", marginBottom: "100px"}}>
                 <h1>Bumble Meet</h1>
                 <List>
                     <InfoCard title="Role">
@@ -38,6 +38,9 @@ function BumbleMeet() {
                         <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://www.figma.com/proto/aPnKnVUM8CzhBjqNlAfkV8/Bumble-Design?page-id=1%3A3&node-id=75-692&viewport=187%2C137%2C0.4&t=sMH8nexsrRsITfqc-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=79%3A659"><b>Figma Demo</b></Link>
                     </InfoCard>
                 </List>
+            </div>
+        </div>
+        <div className="PageBody">
                 <div className='Section'>
                     <div>
                         <h3>Summary</h3>
@@ -95,9 +98,8 @@ function BumbleMeet() {
                         </p>
                     </div>
                 </div>
-            </div>
         </div>
-        <div className='BubbleContainer'>
+        {/* <div className='BubbleContainer'>
             <div style={{"--i":21} as React.CSSProperties}/>
             <div style={{"--i":10} as React.CSSProperties}/>
             <div style={{"--i":49} as React.CSSProperties}/>
@@ -109,7 +111,7 @@ function BumbleMeet() {
             <div style={{"--i":41} as React.CSSProperties}/>
             <div style={{"--i":35} as React.CSSProperties}/>
             <div style={{"--i":25} as React.CSSProperties}/>
-        </div>
+        </div> */}
         <Footer pageName={'Project'}/>
     </div>
   );

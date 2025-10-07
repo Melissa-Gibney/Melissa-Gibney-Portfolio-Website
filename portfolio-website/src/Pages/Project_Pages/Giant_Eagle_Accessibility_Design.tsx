@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 function GiantEagleAccessibilityDesign() {
   return (
     <div className="Project">
-        <Header pageName={'Project'}/>
-        <div className="PageBody">
-            <div className='Contents'>
+        <div className='HeroContainer'>
+            <Header pageName={'Project'}/>
+            <div style={{marginTop: "100px", marginBottom: "100px"}}>
                 <h1>Grocery Store Accessibility Design</h1>
                 <List>
                     <InfoCard title="Role">
@@ -43,6 +43,9 @@ function GiantEagleAccessibilityDesign() {
                         <Link style={{width: "100%", textAlign: "center", fontSize: "24px"}} to="https://youtu.be/ZFkN_IGNRPI?si=XOoE0MQ51gEMbdBq" target='_blank'><b>Showcase</b></Link>
                     </InfoCard>
                 </List>
+            </div>
+        </div>
+        <div className="PageBody">
                 <div className='Section'>
                     <div>
                         <h3>Summary</h3>
@@ -81,20 +84,6 @@ function GiantEagleAccessibilityDesign() {
                         </p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div className='BubbleContainer'>
-            <div style={{"--i":21} as React.CSSProperties}/>
-            <div style={{"--i":10} as React.CSSProperties}/>
-            <div style={{"--i":49} as React.CSSProperties}/>
-            <div style={{"--i":35} as React.CSSProperties}/>
-            <div style={{"--i":80} as React.CSSProperties}/>
-            <div style={{"--i":63} as React.CSSProperties}/>
-            <div style={{"--i":28} as React.CSSProperties}/>
-            <div style={{"--i":55} as React.CSSProperties}/>
-            <div style={{"--i":41} as React.CSSProperties}/>
-            <div style={{"--i":35} as React.CSSProperties}/>
-            <div style={{"--i":25} as React.CSSProperties}/>
         </div>
         <Footer pageName={'Project'}/>
     </div>
