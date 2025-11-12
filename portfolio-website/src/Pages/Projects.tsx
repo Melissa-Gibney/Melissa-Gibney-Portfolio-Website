@@ -37,7 +37,7 @@ const Projects: React.FC<{}> = () => {
                     <List title = "">
                         <PicoCTFCapstoneProjectCard/>
                         <CharacterCreatorCard/>
-                        <AICharacterChatbotCard imageRef="../../assets/project_images/ai_character_chatbot/ai_character_chatbot_thumbnail.svg"/>
+                        <AICharacterChatbotCard/>
                         <FluteSynthesizerCard/>
                         <RoboticDrumMachineCard/>
                         <GiantEagleAccessibilityDesignCard/>
