@@ -1,13 +1,13 @@
 import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
+import thumbnail from "../../assets/project_images/character_creator/character_creator_thumbnail.svg";
 
 const CharacterCreatorCard: React.FC<{}> = () => {
     const title = "Character Creator";
-    const imageRef = "project_images/character_creator/character_creator_thumbnail.svg";
     const link = "/projects/character-creator";
     const description = "A web application that allows users to customize a character and export them as an image.";
     return (
-        <ProjectCard title={title} imageRef={imageRef} link={link} description={description} imagePadding={"0px"}>
+        <ProjectCard title={title} imageRef={thumbnail} link={link} description={description} imagePadding={"0px"}>
             <Tag name={"React"} color={"rgb(157, 120, 164)"}/>
             <Tag name={"Javascript"} color={"rgb(157, 120, 164)"}/>
             <Tag name={"HTML"} color={"rgb(157, 120, 164)"}/>

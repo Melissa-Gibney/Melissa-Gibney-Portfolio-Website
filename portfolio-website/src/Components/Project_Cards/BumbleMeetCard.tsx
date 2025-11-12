@@ -3,9 +3,8 @@ import Tag from "../General/Tag";
 import thumbnail from "../../assets/project_images/bumble_meet/bumble_meet_thumbnail.svg";
 
 const BumbleMeetCard: React.FC<{}> = () => {
-    const title = "Bumble Meet"
-    // const imageRef = "project_images/bumble_meet/bumble_meet_thumbnail.svg"
-    const link = "/projects/bumble-meet"
+    const title = "Bumble Meet";
+    const link = "/projects/bumble-meet";
     const description = "A design for a new Bumble feature that allows users to connect in-person using location services.";
     return (
         <ProjectCard title={title} imageRef={thumbnail} link={link} description={description} imagePadding={"0px"}>
