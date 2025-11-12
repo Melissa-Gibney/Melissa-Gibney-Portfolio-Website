@@ -32,7 +32,7 @@ const Home: React.FC<{}> = () => {
                 <List title="Highlighted Projects">
                     <PicoCTFCapstoneProjectCard/>
                     <CharacterCreatorCard/>
-                    <AICharacterChatbotCard/>
+                    <AICharacterChatbotCard imageRef="../../assets/project_images/ai_character_chatbot/ai_character_chatbot_thumbnail.svg"/>
                 </List>
                 <div style={{width: "100%", height: "100px", content: ""}}/>
                 {/* <img className="ProfilePic" src={"/project_images/general/Professional_Headshot.jpg"} width="200px" height="fit-content" alt=''></img> */}
