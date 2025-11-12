@@ -4,6 +4,7 @@ import MenuLink from './MenuLink.tsx';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import resume from "../../assets/Melissa_Gibney_Resume.pdf";
 
 interface HeaderProps {
   	pageName: "Home" | "Project" | "About";
@@ -27,7 +28,7 @@ const Header: React.FC<HeaderProps> = ({ /*pageName*/ }) =>  {
       		<div className="HeaderRight">
         		<MenuLink title="Home" link="/" isInternal={true} shadowColor={"rgba(136, 92, 218, 0.7)"}/>
         		<MenuLink title="Projects" link="/projects" isInternal={true} shadowColor={"rgba(136, 92, 218, 0.7)"}/>
-				<MenuLink title="Resume" link="Melissa_Gibney_Resume.pdf" isInternal={false} shadowColor={"rgba(136, 92, 218, 0.7)"}/>
+				<MenuLink title="Resume" link={resume} isInternal={false} shadowColor={"rgba(136, 92, 218, 0.7)"}/>
         		<MenuLink title="About" link="/about" isInternal={true} shadowColor={"rgba(136, 92, 218, 0.7)"}/>
       		</div>
     	</div>
