@@ -2,7 +2,7 @@ import Footer from '../Components/General/Footer.tsx';
 import Header from '../Components/General/Header.tsx';
 import './Page.css';
 
-function About() {
+const About: React.FC<{}> = () => {
   	return (
     	<div className="PageContainer">
 			<div className="HeroContainer">

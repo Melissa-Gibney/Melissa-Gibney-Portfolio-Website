@@ -5,7 +5,7 @@ import List from '../../Components/General/List.js';
 import InfoCard from '../../Components/General/InfoCard.js';
 import { Link } from 'react-router-dom';
 
-function PicoCTFCapstoneProject() {
+const PicoCTFCapstoneProject: React.FC<{}> = () => {
   return (
     <div className="Project">
         <div className='HeroContainer'>

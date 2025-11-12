@@ -9,7 +9,7 @@ import CharacterCreatorCard from '../Components/Project_Cards/CharacterCreatorCa
 import GDMSInternshipModal from '../Components/Work_Experience/GDMS_Internship_Modal';
 import CylabExternshipModal from '../Components/Work_Experience/Cylab_Externship_Modal';
 
-function Home() {
+const Home: React.FC<{}> = () => {
 
     return (
         <div className="PageContainer">

@@ -14,7 +14,7 @@ import BumbleMeetCard from '../Components/Project_Cards/BumbleMeetCard';
 
 import '../Scripts/MouseTracking.ts'
 
-function Projects() {
+const Projects: React.FC<{}> = () => {
     return (
         <div className='PageContainer'>
             <div className='HeroContainer'>
