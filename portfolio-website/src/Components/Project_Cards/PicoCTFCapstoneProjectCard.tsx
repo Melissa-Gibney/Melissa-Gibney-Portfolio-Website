@@ -1,13 +1,13 @@
 import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
+import thumbnail from "../../assets/project_images/picoctf_capstone_project/picoCTF_logo.png";
 
 const PicoCTFCapstoneProjectCard: React.FC<{}> = () => {
     const title = "picoCTF Capstone Project";
-    const imageRef = "project_images/picoctf_capstone_project/picoCTF_logo.png";
     const link = "/projects/picoctf-capstone-project";
     const description = "The process of researching, designing, and implementing user retention features onto the picoCTF platform.";
     return (
-        <ProjectCard title={title} imageRef={imageRef} link={link} description={description} imagePadding={"20px"}>
+        <ProjectCard title={title} imageRef={thumbnail} link={link} description={description} imagePadding={"20px"}>
             <Tag name={"Research"} color={"rgb(94, 140, 166)"}/>
             <Tag name={"Design"} color={"rgb(94, 166, 108)"}/>
             <Tag name={"React"} color={"rgb(157, 120, 164)"}/>
