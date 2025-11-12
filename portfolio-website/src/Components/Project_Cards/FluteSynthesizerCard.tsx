@@ -5,7 +5,7 @@ import thumbnail from "../../assets/project_images/flute_synthesizer/flute_synth
 const FluteSynthesizerCard: React.FC<{}> = () => {
     const title = "Flute Synthesizer";
     const link = "/projects/flute-synthesizer";
-    const description = "A flute synthesizer coded based upon research by Perry R. Cook.";
+    const description = "A flute synthesizer that was created based upon research by Perry R. Cook.";
     return (
         <ProjectCard title={title} imageRef={thumbnail} link={link} description={description} imagePadding={"10px"}>
             <Tag name={"Max/MSP"} color={"rgb(157, 120, 164)"}/>
