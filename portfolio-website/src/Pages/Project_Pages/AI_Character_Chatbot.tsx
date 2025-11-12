@@ -5,11 +5,7 @@ import List from '../../Components/General/List';
 import InfoCard from '../../Components/General/InfoCard';
 import { Link } from 'react-router-dom';
 
-interface AICharacterChatbotProps {
-
-}
-
-const AICharacterChatbot: React.FC<AICharacterChatbotProps> = () => {
+const AICharacterChatbot: React.FC<{}> = () => {
     return (
         <div className="Project">
             <div className='HeroContainer'>
