@@ -1,9 +1,7 @@
 import { useState } from "react"
 import Modal from "../General/Modal";
 
-interface CylabProps {}
-
-const CylabExternshipModal: React.FC<CylabProps> = ({  }) => {
+const CylabExternshipModal: React.FC<{}> = () => {
     let [isOpen, updateIsOpen] = useState(false);
 
     const imageRef = "./work_experience_images/cylab_extern/cylab-logo.svg";

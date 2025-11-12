@@ -1,7 +1,7 @@
 import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
 
-function FluteSynthesizerCard() {
+const FluteSynthesizerCard: React.FC<{}> = () => {
     const title = "Flute Synthesizer";
     const imageRef = "project_images/flute_synthesizer/flute_synthesizer_thumbnail.svg";
     const link = "/projects/flute-synthesizer";

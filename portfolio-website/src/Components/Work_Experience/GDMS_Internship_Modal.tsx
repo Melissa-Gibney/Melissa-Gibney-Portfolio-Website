@@ -1,9 +1,7 @@
 import { useState } from "react"
 import Modal from "../General/Modal";
 
-interface GDMSProps {}
-
-const GDMSInternshipModal: React.FC<GDMSProps> = ({  }) => {
+const GDMSInternshipModal: React.FC<{}> = () => {
     let [isOpen, updateIsOpen] = useState(false);
 
     const imageRef = "work_experience_images/gdms/gdms_logo_text.svg";

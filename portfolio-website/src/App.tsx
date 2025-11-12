@@ -11,7 +11,7 @@ import BumbleMeet from './Pages/Project_Pages/Bumble_Meet'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import PicoCTFCapstoneProject from './Pages/Project_Pages/PicoCTF_Capstone_Project'
 
-function App() {
+const App: React.FC<{}> = () => {
   	// initialize a browser router
   	const router = createBrowserRouter([
     	{

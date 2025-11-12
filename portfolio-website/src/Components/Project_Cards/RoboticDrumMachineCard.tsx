@@ -1,7 +1,7 @@
 import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
 
-function RoboticDrumMachineCard() {
+const RoboticDrumMachineCard: React.FC<{}> = () => {
     const title = "Robotic Drum Machine"
     const imageRef = "project_images/robotic_drum_machine/Senior-Design-Enclosure.jpg"
     const link = "/projects/robotic-drum-machine"

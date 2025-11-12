@@ -1,7 +1,7 @@
 import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
 
-function CharacterCreatorCard() {
+const CharacterCreatorCard: React.FC<{}> = () => {
     const title = "Character Creator";
     const imageRef = "project_images/character_creator/character_creator_thumbnail.svg";
     const link = "/projects/character-creator";

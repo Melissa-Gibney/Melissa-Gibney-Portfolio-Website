@@ -1,7 +1,7 @@
 import Card from "../General/ProjectCard";
 import Tag from "../General/Tag";
 
-function GiantEagleAccessibilityDesignCard() {
+const GiantEagleAccessibilityDesignCard: React.FC<{}> = () => {
     const title = "Grocery Store Accessibility Design";
     const imageRef = "project_images/giant_eagle_accessibility_design/thumbnail.svg";
     const link = "/projects/giant-eagle-accessibility-design";
