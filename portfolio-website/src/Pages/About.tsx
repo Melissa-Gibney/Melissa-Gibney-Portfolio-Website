@@ -1,6 +1,7 @@
 import Footer from '../Components/General/Footer.tsx';
 import Header from '../Components/General/Header.tsx';
 import './Page.css';
+import headshot from "../assets/Professional_Headshot_Square.svg";
 
 const About: React.FC<{}> = () => {
   	return (
@@ -8,9 +9,9 @@ const About: React.FC<{}> = () => {
 			<div className="HeroContainer">
 				<Header pageName={'About'}/>
 				<div className='Section' style={{ justifyItems: "center", marginTop: "270px", marginBottom: "300px", marginInline: "10%"}}>
-					{/* <svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
-						<image href={'/Professional_Headshot_Square.svg'} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
-					</svg> */}
+					<svg className="SVG" viewBox="0 0 850 850" style={{marginRight: "10px"}}>
+						<image href={headshot} width="100%" height="100%" preserveAspectRatio='xMidYMid meet'/>
+					</svg>
 					<p style={{fontSize: "2em", marginLeft: "10px", width: "fill"}}>
 						Hello! I'm Melissa, and in my free time I love combining art and technology to create beautiful, interactive experiences.
 						A few of my hobbies include 3D modeling and printing, game development, and pixel art.
