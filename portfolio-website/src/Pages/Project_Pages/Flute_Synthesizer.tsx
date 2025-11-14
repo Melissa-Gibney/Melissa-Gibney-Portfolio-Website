@@ -3,7 +3,7 @@ import Header from '../../Components/General/Header.js';
 import Footer from '../../Components/General/Footer.js';
 import List from '../../Components/General/List.js';
 import InfoCard from '../../Components/General/InfoCard.js';
-// import { Link } from 'react-router-dom';
+import paper from "../../assets/Melissa_Gibney_Flute_Synthesizer_Paper.pdf";
 
 const FluteSynthesizer: React.FC<{}> = () => {
   return (
@@ -36,7 +36,7 @@ const FluteSynthesizer: React.FC<{}> = () => {
                     </InfoCard>
                     <InfoCard title="External Links">
                         <a style={{width: "100%", textAlign: "center", fontSize: "24px"}} href="https://github.com/Melissa-Gibney/Flute-Synthesizer" target='_blank'><b>Github</b></a>
-                        <a style={{width: "100%", textAlign: "center", fontSize: "24px"}} href="/Melissa_Gibney_Flute_Synthesizer_Paper.pdf" target='_blank'><b>Research Paper</b></a>
+                        <a style={{width: "100%", textAlign: "center", fontSize: "24px"}} href={paper} target='_blank'><b>Research Paper</b></a>
                     </InfoCard>
                 </List>
             </div>
