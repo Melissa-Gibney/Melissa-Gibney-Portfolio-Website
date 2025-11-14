@@ -1,16 +1,15 @@
 import { useState } from "react"
 import Modal from "../General/Modal";
+import image from "../../assets/work_experience_images/gdms/gdms_logo_text.svg";
 
 const GDMSInternshipModal: React.FC<{}> = () => {
     let [isOpen, updateIsOpen] = useState(false);
-
-    const imageRef = "work_experience_images/gdms/gdms_logo_text.svg";
 
     return (
         <>
             <button style={{width:"fit", height:"fit", borderRadius: "10px"}} onClick={() => updateIsOpen(true)}>
                 <svg className='SVG'>
-                    <image href={imageRef} style={{borderRadius: "10px"}} width="100%" height="100%" preserveAspectRatio='xMidYMid'/>
+                    <image href={image} style={{borderRadius: "10px"}} width="100%" height="100%" preserveAspectRatio='xMidYMid'/>
                 </svg>
             </button>
             <Modal isOpen={isOpen} onClose={() => updateIsOpen(false)}>
