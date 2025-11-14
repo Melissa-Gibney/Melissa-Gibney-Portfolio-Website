@@ -9,7 +9,7 @@ const About: React.FC<{}> = () => {
 			<div className="HeroContainer">
 				<Header pageName={'About'}/>
 				<div className='Section' style={{ justifyItems: "center", marginTop: "270px", marginBottom: "300px", marginInline: "10%"}}>
-					<svg href={headshot} className="SVG"/>
+					<svg href={headshot} className="SVG" viewBox='0 0 150 150'/>
 					<p style={{fontSize: "2em", marginLeft: "10px", width: "fill"}}>
 						Hello! I'm Melissa, and in my free time I love combining art and technology to create beautiful, interactive experiences.
 						A few of my hobbies include 3D modeling and printing, game development, and pixel art.
