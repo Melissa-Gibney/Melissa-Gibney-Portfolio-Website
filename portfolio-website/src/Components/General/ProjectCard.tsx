@@ -25,37 +25,45 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ children, description, imageR
     }
 
     const setHover = (x: boolean) => {
-        setIsHovering(() => x);
-        // console.log("isHovering: " + x);
-        if(!isHovering)
-        {
-            if(!card.current){return}
-            card.current.setAttribute("style", "transform: rotateX(0deg) rotateY(0deg) transition: transform 1s");
+        setIsHovering(x);
+        // If the pointer left the card, smoothly reset rotation back to neutral
+        if (!x) {
+            if (!card.current) { return }
+            card.current.style.transition = "transform 300ms ease";
+            card.current.style.transform = "rotateX(0deg) rotateY(0deg)";
+            // remove transition after animation finishes so mousemove responses are immediate
+            setTimeout(() => {
+                if (card.current) card.current.style.transition = "";
+            }, 300);
+        } else {
+            // entering: ensure no lingering transition slows immediate movement
+            if (card.current) card.current.style.transition = "";
         }
     }
 
     const handleMouseMoveCard = (event: { clientX: number; clientY: number; }) => {
-        if(isHovering)
-        {
-            if(!card.current){return}
-            // if(!highlight.current){return}
+        if (isHovering) {
+            if (!card.current) { return }
             const rect = card.current.getBoundingClientRect();
-            const mouseX = event.clientX - rect.left - rect.width/2;
-            const mouseY = event.clientY - rect.top - rect.height/2;
+            const mouseX = event.clientX - rect.left - rect.width / 2;
+            const mouseY = event.clientY - rect.top - rect.height / 2;
 
-            const rotateX = (mouseY/rect.height) * 40;
-            const rotateY = (mouseX/rect.width) * 40;
+            const rotateX = (mouseY / rect.height) * 40;
+            const rotateY = (mouseX / rect.width) * 40;
 
-            card.current.setAttribute("style", "transform: rotateX(" + -rotateX + "deg) rotateY(" + rotateY + "deg)");
+            // remove transition while moving so rotation follows cursor instantly
+            card.current.style.transition = "";
+            card.current.style.transform = `rotateX(${ -rotateX }deg) rotateY(${ rotateY }deg)`;
             card.current.style.top = "" + mouseY;
             card.current.style.left = "" + mouseX;
-            // highlight.current.style.top = mouseY;
-            // highlight.current.style.left = mouseX;
-        }
-        else
-        {
-            if(!card.current){return}
-            card.current.setAttribute("style", "transform: rotateX(0deg) rotateY(0deg) transition: transform 1s");
+        } else {
+            // fallback: ensure card returns to neutral if this is called while not hovering
+            if (!card.current) { return }
+            card.current.style.transition = "transform 300ms ease";
+            card.current.style.transform = "rotateX(0deg) rotateY(0deg)";
+            setTimeout(() => {
+                if (card.current) card.current.style.transition = "";
+            }, 300);
         }
     }
 

@@ -2,11 +2,7 @@ import ProjectCard from "../General/ProjectCard";
 import Tag from "../General/Tag";
 import thumbnail from "../../assets/project_images/ai_character_chatbot/ai_character_chatbot_thumbnail.svg"
 
-interface AICharacterChatbotCardProps {
-
-}
-
-const AICharacterChatbotCard: React.FC<AICharacterChatbotCardProps> = ({ }) => {
+const AICharacterChatbotCard: React.FC<{}> = ({}) => {
     const title = "AI Character Chatbot";
     const link = "/projects/ai-character-chatbot";
     const description = "A chatbot that sends its responses to users in Discord using an LLM.";
